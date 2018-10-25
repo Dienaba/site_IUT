@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body{
+	font-size:100%;
+}
+header, main, section, article, nav, footer, aside, figure, figcaption, address, div, fieldset, form{
+	display:block;
+	box-sizing:border-box;
+}
+body, h1, h2, h3, h4, h5, h6, ul, li, p{
+	margin:0;
+	padding:0;
+}
+img{
+	max-width:100%; 
+	height:auto; 
+	border:0;
+}
+a{
+	text-decoration:none;
+}
+.clear::after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+.container{
+	max-width:1170px;
+	margin-left:auto;
+	margin-right:auto;
+}
