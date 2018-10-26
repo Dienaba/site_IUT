@@ -6,18 +6,8 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <header class="container">
-            <div>
-                <img src="image/logo.gif" alt="">
-                <div>
-                    <ul class="menu_header">
-                        <li><a href="#">Accueil</a></li>
-                        <li><a href="#">Formations</a></li>
-                        <li><a href="#">A propos</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
+        <header>
+            <?php include('header.php'); ?>
         </header>
         <main class="container">
             <div>Hello World</div>
