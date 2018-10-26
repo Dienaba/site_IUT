@@ -151,3 +151,9 @@ ul.nav-bar > li > a:hover {
     border: 2px solid #68b51f;
     background-color: #a8df2e;
 }
+
+/** Style page carte **/
+
+main div.container {
+    margin-top:25px;
+}
