@@ -2,4 +2,4 @@
         <main class="container">
             <div>Hello World</div>
         </main>
-<?php includ ('footer.php'); ?>
+<?php include ('footer.php'); ?>
