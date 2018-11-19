@@ -15,13 +15,14 @@
     </head>
 
     <body>
-        <header class="container">
+        <div>
             <div class="violet-bar">
                 <p class="connexion-text">
                     Vous êtes connecté en tant que : 
                 </p>
             </div>
-            <div class="header-container row">
+        <header class="container">
+            <div class="row">
                 <div class="logo col-md-4">
                     <div>
                         <a href="index.html" alt="Accueil" title="Accueil">
@@ -39,3 +40,4 @@
                 </div>
             </div>
         </header>
+        </div>
