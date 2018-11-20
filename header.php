@@ -36,6 +36,8 @@
                     <ul class="nav-bar">
                         <li><a href="index.php">Accueil</a></li>
                         <li><a href="template-formation.php">Formations</a></li>
+                        <li><a href="template-formation.php">Partenaires</a></li>
+                        <li><a href="template-formation.php">Témoignages</a></li>
                         <li><a href="apropos.php">A propos</a></li>
                         <li><a href="contact.php">Contact</a></li>
                     </ul>
