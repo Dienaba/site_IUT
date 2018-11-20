@@ -3,7 +3,7 @@
 <main class="container">
     <div class="bandeau-formations">
         <h1>Formations</h1>
-    <div>
+    </div>
     <div class="container-des-carres">
         <div class="structure-du-carre">
             <div class="titre-de-la-formation">Première formation</div>
