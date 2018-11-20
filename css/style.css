@@ -162,6 +162,10 @@ main div.container {
 div.bandeau-formations {
     background-color: #a8df2e;
 }
+div.bandeau-formations h1 {
+    padding:10px;
+    padding-left:20px;
+}
 div.container-des-carres {
     display:flex;
 }
