@@ -15,6 +15,7 @@
                     container: 'map',
                     style: 'mapbox://styles/mapbox/streets-v10'
                     });
+                    var ll = new mapboxgl.LngLat(-73.9749, 40.7736);
                     </script>
                 </div>
             </div>
