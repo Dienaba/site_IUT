@@ -179,6 +179,7 @@ h4.titre-de-la-formation {
     text-align:center;
     background-color: #47195e;
     color:white;
+    padding: 10px;
 }
 div.description-de-la-formation {
     padding:20px;
