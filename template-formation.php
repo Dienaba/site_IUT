@@ -6,7 +6,7 @@
     </div>
     <div class="container-des-carres">
         <div class="structure-du-carre">
-            <div class="titre-de-la-formation">Première formation</div>
+            <h3 class="titre-de-la-formation">Première formation</h3>
             <div class="lieu-de-la-formation"></div>
             <div class="description de la formation">
                 Aenean libero erat, accumsan et eleifend vel, rutrum at dolor.
