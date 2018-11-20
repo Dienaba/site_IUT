@@ -8,7 +8,7 @@
         <meta name="author" content="">
         <link rel="icon" href="/image/favicon.ico">
         <title>IUT Informatique</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link href="css/mdb.min.css" rel="stylesheet">
