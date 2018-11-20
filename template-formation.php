@@ -16,6 +16,7 @@
                     var map = new mapboxgl.Map({
                     container: 'map',
                     center: [43.4777319,-1.5086245],
+                    zoom: 13,
                     style: 'mapbox://styles/mapbox/streets-v10'
                     });
                     </script>
