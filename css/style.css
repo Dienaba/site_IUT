@@ -116,6 +116,10 @@ header {
 div.header-container {
     margin-top:2%;
 }
+div.container-logo {
+    display:flex;
+    justify-content: center;
+}
 div.violet-bar {
     height:25px;
     background-color:#47195e;

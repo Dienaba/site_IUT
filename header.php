@@ -24,7 +24,7 @@
                 </p>
             </div>
         <div class="container">
-            <div class="row">
+            <div class="row container-logo">
                 <div class="logo">
                     <div>
                         <a href="index.html" alt="Accueil" title="Accueil">
