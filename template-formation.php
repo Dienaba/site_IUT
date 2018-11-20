@@ -14,12 +14,12 @@
     </head>
 
     <body>
+        <div class="violet-bar">
+            <p class="connexion-text">
+                Vous êtes connecté en tant que : 
+            </p>
+        </div>
         <header class="container">
-            <div class="violet-bar">
-                <p class="connexion-text">
-                    Vous êtes connecté en tant que : 
-                </p>
-            </div>
             <div class="header-container row">
                 <div class="logo col-md-4">
                     <div>
