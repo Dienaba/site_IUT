@@ -15,9 +15,9 @@
                     mapboxgl.accessToken = 'pk.eyJ1IjoiZGFyZWFsc29hcGJveCIsImEiOiJjam9wdHMybzAxazR5M3ZteG83ZWJ4ODA5In0.UL2QJN2hap6eBOKW54hnkA';
                     var map = new mapboxgl.Map({
                     container: 'map',
+                    center: [-122.420679, 37.772537],
                     style: 'mapbox://styles/mapbox/streets-v10'
                     });
-                    var ll = new mapboxgl.LngLat(-73.9749, 40.7736);
                     </script>
             </div>
             <div class="description-de-la-formation">
