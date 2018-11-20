@@ -30,18 +30,16 @@ label button {
   margin: 5px 10px;
   width: 200px;
   height: auto;
-
-
- @media (min-width: @screen-sm-min) {
+}
+@media (min-width: @screen-sm-min) {
      width: 300px;
-
-
- @media (min-width: @screen-md-min) {
+ }
+@media (min-width: @screen-md-min) {
       width: 400px;
       float: left;
-      margin: 10px 20px;
-
-
- @media (min-width: @screen-lg-min) {
+      margin: 10px 20px; 
+ }
+@media (min-width: @screen-lg-min) {
     width: 600px;
 }
+
