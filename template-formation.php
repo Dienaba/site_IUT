@@ -13,9 +13,9 @@
             <div class="description-de-la-formation">
                 <p>
                     <h6>Secrétariat Dpt. Informatique</h6>
-                    Téléphone : 05.59.57.43.20 <br>
-                    Mail : sec-info@iutbayonne.univ-pau.fr
-                    Fax : 05.59.57.43.29
+                    <strong>Téléphone</strong> : 05.59.57.43.20 <br>
+                    <strong>Mail</strong> : sec-info@iutbayonne.univ-pau.fr<br>
+                    <strong>Fax</strong> : 05.59.57.43.29
                 </p>
             </div>
         </div>
