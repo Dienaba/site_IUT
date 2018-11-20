@@ -163,3 +163,7 @@ main div.container {
 div.container-des-carres {
     display:flex;
 }
+div.structure-du-carre {
+    border: 2px solid black;
+    padding:20px;
+}
