@@ -8,7 +8,7 @@
         <meta name="author" content="">
         <link rel="icon" href="/image/favicon.ico">
         <title>IUT Informatique</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link href="css/mdb.min.css" rel="stylesheet">
@@ -33,7 +33,7 @@
                 <div class="col-md-8">
                     <ul class="nav-bar">
                         <li><a href="index.html">Accueil</a></li>
-                        <li><a href="template-formation.html">Formations</a></li>
+                        <li><a href="template-formation.php">Formations</a></li>
                         <li><a href="apropos.html">A propos</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
