@@ -170,7 +170,7 @@ div.container-des-carres {
     display:flex;
 }
 div.structure-du-carre {
-    border: 2px solid black;
+    border: 1px solid black;
     padding:20px;
     margin:10px;
 }
