@@ -32,8 +32,8 @@
             </div>
         </div>
         <div class="structure-du-carre">
-            <h4 class="titre-de-la-formation">Troisième formation</h4>
-            <div class="lieu-de-la-formation"></div>
+            <h4 class="titre-de-la-formation">IUT de Lannion</h4>
+            <div class="lieu-de-la-formation"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2630.2885306503536!2d-3.453766384329205!3d48.757286079277655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48122c034b5275af%3A0x355e62516b08c22f!2sIUT+Lannion!5e0!3m2!1sfr!2sfr!4v1542726663874" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
             <div class="description-de-la-formation">
                 Aenean libero erat, accumsan et eleifend vel, rutrum at dolor.
                 Quisque volutpat lacus at nunc rutrum, lacinia eleifend risus consectetur.
