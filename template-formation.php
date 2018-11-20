@@ -6,7 +6,7 @@
     </div>
     <div class="container-des-carres">
         <div class="structure-du-carre">
-            <h3 class="titre-de-la-formation">Première formation</h3>
+            <h4 class="titre-de-la-formation">Première formation</h4>
             <div class="lieu-de-la-formation"></div>
             <div class="description de la formation">
                 Aenean libero erat, accumsan et eleifend vel, rutrum at dolor.
@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="structure-du-carre">
-            <div class="titre-de-la-formation">Deuxième formation</div>
+            <h4 class="titre-de-la-formation">Deuxième formation</h4>
             <div class="lieu-de-la-formation"></div>
             <div class="description de la formation">
                 Aenean libero erat, accumsan et eleifend vel, rutrum at dolor.
@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="structure-du-carre">
-            <div class="titre-de-la-formation">Troisième formation</div>
+            <h4 class="titre-de-la-formation">Troisième formation</h4>
             <div class="lieu-de-la-formation"></div>
             <div class="description de la formation">
                 Aenean libero erat, accumsan et eleifend vel, rutrum at dolor.
