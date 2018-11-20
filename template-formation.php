@@ -30,10 +30,10 @@
                 </div>
                 <div class="col-md-8">
                     <ul class="nav-bar">
-                        <li><a href="index.html">Accueil</a></li>
-                        <li><a href="template-formation.html">Formations</a></li>
-                        <li><a href="apropos.html">A propos</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.php">Accueil</a></li>
+                        <li><a href="template-formation.php">Formations</a></li>
+                        <li><a href="apropos.php">A propos</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
             </div>
