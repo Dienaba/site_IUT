@@ -1,6 +1,9 @@
 <?php include('header.php'); ?>
 
 <main class="container">
+    <div class="bandeau-formations">
+        <h1>Formations</h1>
+    <div>
     <div class="container-des-carres">
         <div class="structure-du-carre">
             <div class="titre-de-la-formation">Première formation</div>
@@ -15,7 +18,7 @@
             </div>
         </div>
         <div class="structure-du-carre">
-            <div class="titre-de-la-formation">Première formation</div>
+            <div class="titre-de-la-formation">Deuxième formation</div>
             <div class="lieu-de-la-formation"></div>
             <div class="description de la formation">
                 Aenean libero erat, accumsan et eleifend vel, rutrum at dolor.
@@ -27,7 +30,7 @@
             </div>
         </div>
         <div class="structure-du-carre">
-            <div class="titre-de-la-formation">Première formation</div>
+            <div class="titre-de-la-formation">Troisième formation</div>
             <div class="lieu-de-la-formation"></div>
             <div class="description de la formation">
                 Aenean libero erat, accumsan et eleifend vel, rutrum at dolor.
