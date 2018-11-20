@@ -8,7 +8,7 @@
         <div class="structure-du-carre">
             <h4 class="titre-de-la-formation">Première formation</h4>
             <div class="lieu-de-la-formation"></div>
-            <div class="description de la formation">
+            <div class="description-de-la-formation">
                 Aenean libero erat, accumsan et eleifend vel, rutrum at dolor.
                 Quisque volutpat lacus at nunc rutrum, lacinia eleifend risus consectetur.
                 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer ut metus nisl.
@@ -20,7 +20,7 @@
         <div class="structure-du-carre">
             <h4 class="titre-de-la-formation">Deuxième formation</h4>
             <div class="lieu-de-la-formation"></div>
-            <div class="description de la formation">
+            <div class="description-de-la-formation">
                 Aenean libero erat, accumsan et eleifend vel, rutrum at dolor.
                 Quisque volutpat lacus at nunc rutrum, lacinia eleifend risus consectetur.
                 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer ut metus nisl.
@@ -32,7 +32,7 @@
         <div class="structure-du-carre">
             <h4 class="titre-de-la-formation">Troisième formation</h4>
             <div class="lieu-de-la-formation"></div>
-            <div class="description de la formation">
+            <div class="description-de-la-formation">
                 Aenean libero erat, accumsan et eleifend vel, rutrum at dolor.
                 Quisque volutpat lacus at nunc rutrum, lacinia eleifend risus consectetur.
                 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer ut metus nisl.
