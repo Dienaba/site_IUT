@@ -12,6 +12,8 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link href="css/mdb.min.css" rel="stylesheet">
+        <script src='https://api.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css' rel='stylesheet' />
     </head>
 
     <body>
