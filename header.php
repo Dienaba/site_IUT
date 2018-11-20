@@ -27,7 +27,7 @@
             <div class="row container-logo">
                 <div class="logo">
                     <div>
-                        <a href="index.html" alt="Accueil" title="Accueil">
+                        <a href="index.php" alt="Accueil" title="Accueil">
                             <img src="image/logo.gif" alt="IUT Informatique" title="IUT Informatique">
                         </a>
                     </div>
