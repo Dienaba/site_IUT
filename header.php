@@ -25,14 +25,14 @@
             </div>
         <div class="container">
             <div class="row">
-                <div class="logo col-md-4">
+                <div class="logo">
                     <div>
                         <a href="index.html" alt="Accueil" title="Accueil">
                             <img src="image/logo.gif" alt="IUT Informatique" title="IUT Informatique">
                         </a>
                     </div>
                 </div>
-                <div class="col-md-8">
+                <div>
                     <ul class="nav-bar">
                         <li><a href="index.php">Accueil</a></li>
                         <li><a href="template-formation.php">Formations</a></li>
