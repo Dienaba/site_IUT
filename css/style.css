@@ -159,7 +159,9 @@ main div.container {
 }
 
 /** Style page formations **/
-
+div.bandeau-formations {
+    background-color: #a8df2e;
+}
 div.container-des-carres {
     display:flex;
 }
