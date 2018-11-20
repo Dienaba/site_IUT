@@ -110,7 +110,9 @@ input, textarea {
 /****************************************** STYLE HEADER *****************/
 
 /** STYLE NAV BAR HEADER **/ 
-
+header {
+    margin-bottom:20px;
+}
 div.header-container {
     margin-top:2%;
 }
