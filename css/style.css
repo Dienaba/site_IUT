@@ -185,3 +185,51 @@ h4.titre-de-la-formation {
 footer {
     margin-top:20px;
 }
+
+/** style formation**/
+
+label button a {
+    display: block;
+    height: auto;
+    width: 20vw;
+    min-height: 130px;
+    background-color: #6C0277;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 21.5px;
+}
+label button {
+    background-color: #6C0277;
+}
+ a {
+   text-decoration: none;
+ }
+ label button:hover {
+   background-color: white;
+ }
+ label button a:hover {
+   text-decoration: none;
+   font-weight: bold;
+   background-color: white;
+   color: #6C0277;
+ }
+
+.col {
+  margin: 5px 10px;
+  width: 200px;
+  height: auto;
+}
+@media (min-width: @screen-sm-min) {
+     width: 300px;
+ }
+@media (min-width: @screen-md-min) {
+      width: 400px;
+      float: left;
+      margin: 10px 20px; 
+ }
+@media (min-width: @screen-lg-min) {
+    width: 600px;
+}
+
