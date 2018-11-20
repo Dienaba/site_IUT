@@ -179,3 +179,9 @@ div.structure-du-carre {
 h4.titre-de-la-formation {
     text-align:center;
 }
+
+/** Style footer **/
+
+footer {
+    margin-top:20px;
+}
