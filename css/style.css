@@ -152,10 +152,14 @@ ul.nav-bar > li > a:hover {
 ul.nav > li > a {
     color:#47195e !important;
 }
-
-}
 /** Style page carte **/
 
 main div.container {
     margin-top:25px;
+}
+
+/** Style page formations **/
+
+div.container-des-carres {
+    display:flex;
 }
