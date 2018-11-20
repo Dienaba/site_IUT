@@ -19,6 +19,9 @@
                     zoom: 13,
                     style: 'mapbox://styles/mapbox/streets-v10'
                     });
+                    var v1 = new mapboxgl.LngLat(-122.420679, 37.772537);
+                    var v2 = [-122.420679, 37.772537];
+                    var v3 = {lon: -122.420679, lat: 37.772537};
                     </script>
             </div>
             <div class="description-de-la-formation">
