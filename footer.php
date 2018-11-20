@@ -9,7 +9,7 @@
                 <a href="#!" class="nav-link">A propos</a>
               </li>
               <li class="nav-item">
-                <a href="#!" class="nav-link">Formation</a>
+                <a href="template-formation.php" class="nav-link">Formation</a>
               </li>
               <li class="nav-item">
                 <a href="#!" class="nav-link">Contact</a>
