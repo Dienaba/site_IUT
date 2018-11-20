@@ -177,6 +177,8 @@ div.structure-du-carre {
 }
 h4.titre-de-la-formation {
     text-align:center;
+    background-color: #47195e;
+    color:white;
 }
 div.description-de-la-formation {
     padding:20px;
