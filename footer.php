@@ -1,7 +1,7 @@
-<footer class="page-footer font-small green pt-4">
+<footer class="page-footer font-small green">
     <div class="container text-center text-md-left">
         <div>
-            <ul class="nav justify-content-center py-4">
+            <ul class="nav justify-content-center">
               <li class="nav-item">
                 <a href="#!" class="nav-link">Accueil</a>
               </li>
