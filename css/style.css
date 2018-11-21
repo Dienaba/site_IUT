@@ -110,15 +110,9 @@ input, textarea {
 /****************************************** STYLE HEADER *****************/
 
 /** STYLE NAV BAR HEADER **/ 
-header {
-    margin-bottom:20px;
-}
+
 div.header-container {
     margin-top:2%;
-}
-div.container-logo {
-    display:flex;
-    justify-content: center;
 }
 div.violet-bar {
     height:25px;
@@ -137,6 +131,7 @@ ul.nav-bar {
     list-style: none;
     display:flex;
     justify-content: space-around;
+    font-weight: 600;
 }
 ul.nav-bar > li > a {
     border: 2px solid #a8df2e;
@@ -147,7 +142,6 @@ ul.nav-bar > li > a {
     margin : 20px;
     padding: 10px 20px 10px 20px;
     display: inline-block;
-    font-size:
 }
 ul.nav-bar > li > a:hover {
     border: 2px solid #68b51f;
@@ -158,73 +152,30 @@ ul.nav-bar > li > a:hover {
 ul.nav > li > a {
     color:#47195e !important;
 }
+
+}
 /** Style page carte **/
 
 main div.container {
     margin-top:25px;
 }
 
-/** Style page formations **/
-div.bandeau {
-    border: 2px solid #68b51f;
-    border-radius: 5px;
-}
-div.bandeau h1 {
-    padding:10px;
-    padding-left:20px;
-}
-div.container-des-carres {
-    display:flex;
-}
-div.structure-du-carre {
-    border: 1px solid black;
-    margin:10px;
-    border-radius:5px;
-}
-h4.titre-de-la-formation {
-    text-align:center;
-    background-color: #47195e;
-    color:white;
-    padding: 10px;
-}
-div.description-de-la-formation {
-    padding:20px;
-}
-
-/****************************************** STYLE Carousel *****************/
-
-#carouselExampleIndicators {
-  width: 60%;
-  height : 30%;
-  margin-top: 30px;
-}
-
-#image {
-  height: 100%;
-  width: 100%;
-}
-
-/** Style footer **/
-footer {
-    margin-top:20px;
-}
-
-/** style formation**/
+/** Style buttons formation accueil **/
 
 label button a {
     display: block;
     height: auto;
     width: 20vw;
     min-height: 130px;
-    background-color: #6C0277;
-    color: white;
+    background-color: #47195e;
+    color: white!important;
     padding: 20px;
     font-size: 15px;
     font-weight: lighter;
     line-height: 21.5px;
 }
 label button {
-    background-color: #6C0277;
+    background-color: #47195e;
 }
  a {
    text-decoration: none;
@@ -236,7 +187,7 @@ label button {
    text-decoration: none;
    font-weight: bold;
    background-color: white;
-   color: #6C0277;
+   color::#47195e;
  }
 
 .col {
@@ -244,15 +195,14 @@ label button {
   width: 200px;
   height: auto;
 }
-@media (min-width: @screen-sm-min) {
+@media only screen and (max-width: 480px) {
      width: 300px;
  }
-@media (min-width: @screen-md-min) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
       width: 400px;
       float: left;
       margin: 10px 20px; 
  }
-@media (min-width: @screen-lg-min) {
+@media screen and (min-width: 769px) {
     width: 600px;
 }
-
