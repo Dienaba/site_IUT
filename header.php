@@ -24,18 +24,20 @@
                 </p>
             </div>
         <div class="container">
-            <div class="row">
-                <div class="logo col-md-4">
+            <div class="row container-logo">
+                <div class="logo">
                     <div>
-                        <a href="index.html" alt="Accueil" title="Accueil">
+                        <a href="index.php" alt="Accueil" title="Accueil">
                             <img src="image/logo.gif" alt="IUT Informatique" title="IUT Informatique">
                         </a>
                     </div>
                 </div>
-                <div class="col-md-8">
+                <div>
                     <ul class="nav-bar">
                         <li><a href="index.php">Accueil</a></li>
-                        <li><a href="template-formation.php">Formations</a></li>
+                        <li><a href="formation.php">Formations</a></li>
+                        <li><a href="partenaires.php">Partenaires</a></li>
+                        <li><a href="temoignages.php">Témoignages</a></li>
                         <li><a href="apropos.php">A propos</a></li>
                         <li><a href="contact.php">Contact</a></li>
                     </ul>

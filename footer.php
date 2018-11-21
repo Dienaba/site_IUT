@@ -6,10 +6,16 @@
                 <a href="index.php" class="nav-link">Accueil</a>
               </li>
               <li class="nav-item">
-                <a href="apropos.php" class="nav-link">A propos</a>
+                <a href="formation.php" class="nav-link">Formations</a>
               </li>
               <li class="nav-item">
-                <a href="template-formation.php" class="nav-link">Formations</a>
+                <a href="partenaires.php" class="nav-link">Partenaires</a>
+              </li>
+              <li class="nav-item">
+                <a href="temoignages.php" class="nav-link">Témoignages</a>
+              </li>
+              <li class="nav-item">
+                <a href="apropos.php" class="nav-link">A propos</a>
               </li>
               <li class="nav-item">
                 <a href="contact.php" class="nav-link">Contact</a>

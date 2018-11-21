@@ -2,7 +2,7 @@
 
 <main class="container">
     <div class="bandeau">
-        <h1>Contact</h1>
+        <h1>Témoignages</h1>
     </div>
 </main>
 
