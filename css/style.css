@@ -175,14 +175,9 @@ label button a {
     line-height: 21.5px;
 }
 label button {
-    background-color: #47195e;
+    border: 2px solid #47195e;
 }
-a {
-   text-decoration: none;
-}
-label button:hover {
-   background-color: white;
-}
+
 label button a:hover {
    text-decoration: none;
    font-weight: bold;
