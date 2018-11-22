@@ -30,7 +30,7 @@
                     <p>
                         <label>Corps du message</label>
                         <span>
-                            <textarea name="votre-message" cols="40" rows="10">
+                            <textarea name="votre-message" cols="40" rows="10"></textarea>
                         </span>
                     </p>
                 </form>
