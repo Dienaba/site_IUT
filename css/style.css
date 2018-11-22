@@ -150,6 +150,9 @@ ul.nav-bar > li > a:hover {
 }
 
 /** footer **/
+footer {
+    margin-top:2%;
+}
 ul.nav > li > a {
     color:#47195e !important;
 }
