@@ -251,8 +251,11 @@ div.container-des-blocs a div.bloc-formation:hover {
 
 /** Modifs Carrousel **/
 
-body div#carouselExampleIndicators {
+body.index div#carouselExampleIndicators {
     width: 650px;
+}
+body.index div.carousel-inner {
+    border-radius:20px;
 }
 
 
