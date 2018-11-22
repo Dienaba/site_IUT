@@ -219,6 +219,14 @@ div.container-des-blocs a div.bloc-formation:hover {
 body div#carouselExampleIndicators {
     width: 650px;
 }
+/** Modifs Carrousel taille format tablette et mobile  **/
+@media (max-width: 1024px) {
+    body div#carouselExampleIndicators  {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}
+
 
 /** Bandeau en haut de page **/
 
