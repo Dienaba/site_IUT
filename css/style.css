@@ -163,12 +163,7 @@ div.container-des-blocs {
     margin-top:2%;
     margin-bottom:2%;
 }
-label button a {
-    display: block;
-    height: auto;
-    padding: 20px;
-}
-label button {
+div.container-des-blocs div.bloc-formation a {
     border: 2px solid #47195e;
 }
 /** ATTENTION, .col fait parti de Boostrap, on est pas sensé y toucher, modifier le ciblage
