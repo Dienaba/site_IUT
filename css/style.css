@@ -153,12 +153,6 @@ ul.nav-bar > li > a:hover {
 ul.nav > li > a {
     color:#47195e !important;
 }
-/** Style page carte **/
-
-main div.container {
-    margin-top:25px;
-}
-
 /** Style Blocs accueil **/
 div.container-des-blocs {
     margin-top:2%;
@@ -214,5 +208,10 @@ body div#carouselExampleIndicators {
     width: 650px;
 }
 
-/** Modifs page formations **/
+/** Bandeau en haut de page **/
 
+div.bandeau {
+    border: 2px solid #68b51f;
+}
+
+/** Modifs page formations **/
