@@ -165,24 +165,10 @@ div.container-des-blocs {
 label button a {
     display: block;
     height: auto;
-    width: 20vw;
-    min-height: 130px;
-    background-color: #47195e;
-    color: white!important;
     padding: 20px;
-    font-size: 15px;
-    font-weight: lighter;
-    line-height: 21.5px;
 }
 label button {
     border: 2px solid #47195e;
-}
-
-label button a:hover {
-   text-decoration: none;
-   font-weight: bold;
-   background-color: white;
-   color:#47195e;
 }
 /** ATTENTION, .col fait parti de Boostrap, on est pas sensé y toucher, modifier le ciblage
 .col {
