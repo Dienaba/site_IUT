@@ -28,68 +28,32 @@
             </a>
         </div>
         <div class="container-des-blocs">
-            <div class="">
-                <label>
-                    <button>
-                        <a href="#">Nos Formations</a>
-                    </button>
-                </label>
+            <div class="bloc-formation">
+                <a href="#">Nos Formations</a>
             </div>
-            <div class="">
-                <label>
-                    <button>
-                        <a href="#">Licences</a>
-                    </button>
-                </label>
+            <div class="bloc-formation">
+                <a href="#">Licences</a>
             </div>
-            <div class="">
-                <label>
-                    <button>
-                        <a href="#">Formation en alternance/en apprentissage</a>
-                    </button>
-                </label>
+            <div class="bloc-formation">
+                <a href="#">Formation en alternance/en apprentissage</a>
             </div>
-            <div class="">
-                <label>
-                    <button>
-                        <a href="#">Licences</a>
-                    </button>
-                </label>
+            <div class="bloc-formation">
+                <a href="#">Licences</a>
             </div>
-            <div class="">
-                <label>
-                    <button>
-                        <a href="#">Auditeurs libres</a>
-                    </button>
-                </label>
+            <div class="bloc-formation">
+                <a href="#">Auditeurs libres</a>
             </div>
-            <div class="">
-                <label>
-                    <button>
-                        <a href="#">Formation continue</a>
-                    </button>
-                </label>
+            <div class="bloc-formation">
+                <a href="#">Formation continue</a>
             </div>
-            <div class="">
-                <label>
-                    <button>
-                        <a href="#">Formation à distance</a>
-                    </button>
-                </label>
+            <div class="bloc-formation">
+                <a href="#">Formation à distance</a>
             </div>
-            <div class="">
-                <label>
-                    <button>
-                        <a href="#">Formations courtes en formation continue</a>
-                    </button>
-                </label>
+            <div class="bloc-formation">
+                <a href="#">Formations courtes en formation continue</a>
             </div>
-            <div class="">
-                <label>
-                    <button>
-                        <a href="#">Formation DAEU (non bacheliers)</a>
-                    </button>
-                </label>
+            <div class="bloc-formation">
+                <a href="#">Formation DAEU (non bacheliers)</a>
             </div>
         </div>
     </main>
