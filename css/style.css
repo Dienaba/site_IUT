@@ -153,20 +153,20 @@ ul.nav-bar > li > a:hover {
 
 /** BLOC CONNEXION **/
 
-.bloc-connexion {
+body.index .bloc-connexion {
     /** border: 3px solid #3c2e60; **/
     background-color: #3c2e60;
     margin:0px auto;
     color:white;
 }
-.bloc-connexion input {
+body.index .bloc-connexion input {
     border-bottom: 3px solid #bbcc27!important;
     margin: 10px 0px!important;
     border:none;
     background-color:#3c2e60;
     border-radius:0px!important;
 }
-.bloc-connexion button {
+body.index .bloc-connexion button {
     background-color: #bbcc27;
     color: #3c2e60;
     border: 2px solid #68b51f;
@@ -207,7 +207,6 @@ div.container-des-blocs div.bloc-formation a {
 div.container-des-blocs a div.bloc-formation:hover {
     background-color: #3c2e60;
     transition-duration: 0.5s;
-    background-color: #47195e;
     -webkit-transition: all 0.30s ease-in-out;
 }
 div.container-des-blocs a div.bloc-formation:hover {
@@ -339,7 +338,7 @@ body.contact div.formulaire-contact textarea {
     color: #555;
 }
 body.contact div.formulaire-contact input.bouton-submit:hover {
-    background-color:#47195e;
+    background-color:#3c2e60;
     color:#fff;
     -webkit-transition: all 0.30s ease-in-out;
 }
