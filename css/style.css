@@ -263,7 +263,8 @@ body.contact div.formulaire-contact p {
     line-height:1.7;
     font-weight:500;
 }
-body.contact div.formulaire-contact input {
+body.contact div.formulaire-contact input,
+body.contact div.formulaire-contact textarea {
     -webkit-transition: all 0.30s ease-in-out;
     outline:none;
     -webkit-box-sizing: border-box;
