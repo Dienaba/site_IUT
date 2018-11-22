@@ -21,7 +21,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </head>
 
-    <body>
+    <body class="<?php echo basename($_SERVER['PHP_SELF'], ".php"); ?>">
         <header>
             <div class="violet-bar">
                 <p class="connexion-text">
@@ -37,7 +37,7 @@
                             </a>
                         </div>
                     </div>
-                    <div>
+                    <div class="container-nav-bar">
                         <ul class="nav-bar">
                             <li><a href="index.php">Accueil</a></li>
                             <li><a href="formation.php">Formations</a></li>

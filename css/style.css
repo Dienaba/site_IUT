@@ -56,6 +56,14 @@ input, textarea {
     color: #4A4A4A;
 }
 
+/** RESPONSIVE DU SITE **/
+
+@media only screen and (max-width: 480px) {
+    div.violet-bar {
+        width:100%;
+    }
+}
+
 /* Reset default bootstrap grid settings
 ---------------------------------- */
 
@@ -87,6 +95,7 @@ input, textarea {
 .header {
     text-align: center;
     padding: 25px 0;
+    margin-bottom:2%;
 }
 
 .logo {
@@ -150,37 +159,39 @@ ul.nav-bar > li > a:hover {
 }
 
 /** footer **/
+footer {
+    margin-top:2% !important;
+}
 ul.nav > li > a {
     color:#47195e !important;
 }
 /** Style Blocs accueil **/
-div.container-des-blocs {
+body.index div.container-des-blocs {
     margin-top:2%;
     margin-bottom:2%;
     display:flex;
     flex-wrap: wrap;
 }
-div.container-des-blocs a {
+body.index div.container-des-blocs a {
     width:33%;
 }
-div.container-des-blocs a div.bloc-formation {
+body.index div.container-des-blocs a div.bloc-formation {
     text-align:center;
     margin:10px;
     border: 2px solid #47195e;
     padding:5px;
     border-radius:5px;
+    height: 80%;
 }
-/**
-div.container-des-blocs div.bloc-formation a {
-}**/
-div.container-des-blocs a div.bloc-formation:hover {
+body.index div.container-des-blocs a div.bloc-formation:hover {
     background-color: #47195e;
     transition-duration: 0.5s;
 }
-div.container-des-blocs a div.bloc-formation:hover {
+body.index div.container-des-blocs a div.bloc-formation:hover {
     color:#fff !important;
     transition-duration: 0.5s;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
  a {
    text-decoration: none;
@@ -217,12 +228,22 @@ div.container-des-blocs a div.bloc-formation:hover {
     width: 600px;
 }
 **/
+=======
+>>>>>>> 7e3ee9134749a79e4393e24ed58c091adae24efa
 
 /** Modifs Carrousel **/
 
-body div#carouselExampleIndicators {
+body.index div#carouselExampleIndicators {
     width: 650px;
 }
+/** Modifs Carrousel taille format tablette et mobile  **/
+@media (max-width: 1024px) {
+    body.index div#carouselExampleIndicators  {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}
+
 
 /** Bandeau en haut de page **/
 
@@ -236,22 +257,22 @@ div.bandeau h1 {
     padding-left:15px;
 }
 /** Modifs page formations **/
-div.container-des-carres {
+body.formation div.container-des-carres {
     display:flex;
     flex-wrap:wrap;
 }
-div.container-des-carres div.structure-du-carre {
+body.formation div.container-des-carres div.structure-du-carre {
     border: 2px solid #47195e;
     border-radius: 5px;
     width:32%;
     margin:5px;
 }
-div.container-des-carres div.structure-du-carre h4 {
+body.formation div.container-des-carres div.structure-du-carre h4 {
     text-align:center;
     padding:5px;
     background-color: #47195e;
     color: #fff;
 }
-div.container-des-carres div.structure-du-carre div.description-de-la-formation {
+body.formation div.container-des-carres div.structure-du-carre div.description-de-la-formation {
     padding:10px;
 }
