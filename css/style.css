@@ -234,3 +234,6 @@ div.container-des-carres div.structure-du-carre h4 {
     background-color: #47195e;
     color: #fff;
 }
+div.container-des-carres div.structure-du-carre div.description-de-la-formation {
+    padding:10px;
+}
