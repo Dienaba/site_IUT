@@ -146,37 +146,42 @@ ul.nav-bar > li > a {
 ul.nav-bar > li > a:hover {
     border: 2px solid #68b51f;
     background-color: #a8df2e;
+    transition-duration: 0.5s;
 }
 
 /** footer **/
 ul.nav > li > a {
     color:#47195e !important;
 }
-
+/** Style Blocs accueil **/
+div.container-des-blocs {
+    margin-top:2%;
+    margin-bottom:2%;
+    display:flex;
+    flex-wrap: wrap;
 }
-/** Style page carte **/
-
-main div.container {
-    margin-top:25px;
+div.container-des-blocs a {
+    width:33%;
 }
-
-/** Style buttons formation accueil **/
-
-label button a {
-    display: block;
-    height: auto;
-    width: 20vw;
-    min-height: 130px;
+div.container-des-blocs a div.bloc-formation {
+    text-align:center;
+    margin:10px;
+    border: 2px solid #47195e;
+    padding:5px;
+    border-radius:5px;
+}
+/**
+div.container-des-blocs div.bloc-formation a {
+}**/
+div.container-des-blocs a div.bloc-formation:hover {
     background-color: #47195e;
-    color: white!important;
-    padding: 20px;
-    font-size: 15px;
-    font-weight: lighter;
-    line-height: 21.5px;
+    transition-duration: 0.5s;
 }
-label button {
-    background-color: #47195e;
+div.container-des-blocs a div.bloc-formation:hover {
+    color:#fff !important;
+    transition-duration: 0.5s;
 }
+<<<<<<< HEAD
  a {
    text-decoration: none;
  }
@@ -190,14 +195,19 @@ label button {
    color:#47195e!important;
  }
 
+=======
+/** ATTENTION, .col fait parti de Boostrap, on est pas sensé y toucher, modifier le ciblage
+>>>>>>> ac74b2ae013d85f8bf86b946988ada8748a705e9
 .col {
   margin: 5px 10px;
   width: 200px;
   height: auto;
-}
+} **/
+
+/** ATTENTION, rien n'est ciblé. @media sert au responsive, mais les boutons ne sont pas ciblés
 @media only screen and (max-width: 480px) {
      width: 300px;
- }
+}
 @media screen and (min-width: 481px) and (max-width: 768px) {
       width: 400px;
       float: left;
@@ -205,4 +215,43 @@ label button {
  }
 @media screen and (min-width: 769px) {
     width: 600px;
+}
+**/
+
+/** Modifs Carrousel **/
+
+body div#carouselExampleIndicators {
+    width: 650px;
+}
+
+/** Bandeau en haut de page **/
+
+div.bandeau {
+    border: 2px solid #68b51f;
+    border-radius: 5px;
+    margin-bottom:2%;
+}
+div.bandeau h1 {
+    padding:5px;
+    padding-left:15px;
+}
+/** Modifs page formations **/
+div.container-des-carres {
+    display:flex;
+    flex-wrap:wrap;
+}
+div.container-des-carres div.structure-du-carre {
+    border: 2px solid #47195e;
+    border-radius: 5px;
+    width:32%;
+    margin:5px;
+}
+div.container-des-carres div.structure-du-carre h4 {
+    text-align:center;
+    padding:5px;
+    background-color: #47195e;
+    color: #fff;
+}
+div.container-des-carres div.structure-du-carre div.description-de-la-formation {
+    padding:10px;
 }
