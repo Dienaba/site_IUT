@@ -165,6 +165,7 @@ div.container-des-blocs {
 }
 div.container-des-blocs div.bloc-formation a {
     border: 2px solid #47195e;
+    padding:5px;
 }
 /** ATTENTION, .col fait parti de Boostrap, on est pas sensé y toucher, modifier le ciblage
 .col {
