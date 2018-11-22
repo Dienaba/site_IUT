@@ -93,6 +93,10 @@ div.container-logo {
     display:flex;
     justify-content: space-around;
 }
+div.container-banner {
+    display:flex;
+    justify-content: space-around;
+}
 .logo {
     display: table-cell;
     vertical-align: middle;
