@@ -179,6 +179,7 @@ body.index div.bloc-connexion form {
 }
 body.index div.bloc-connexion form label {
     margin-bottom: 0px !important;
+    margin-top: 10px !important;
 }
 /** footer **/
 footer {
