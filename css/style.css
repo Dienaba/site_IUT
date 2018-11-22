@@ -220,6 +220,9 @@ div.bandeau h1 {
     padding-left:15px;
 }
 /** Modifs page formations **/
+div.container-des-carres {
+    display:flex;
+}
 div.container-des-carres div.structure-du-carre {
     border: 2px solid #47195e;
     border-radius: 5px;
