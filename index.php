@@ -28,15 +28,69 @@
             </a>
         </div>
         <div class="container-des-blocs">
-            <div class=""><label><button><a href="#">Nos Formations</a></button></label></div>
-            <div class=""><label><button><a href="#">Licences</a></button></label></div>
-            <div class=""><label><button><a href="#">Formation en alternance/en apprentissage</a></button></label></div>
-            <div class=""><label><button><a href="#">Licences</a></button></label></div>
-            <div class=""><label><button><a href="#">Auditeurs libres</a></button></label></div>
-            <div class=""><label><button><a href="#">Formation continue</a></button></label></div>
-            <div class=""><label><button><a href="#">Formation à distance</a></button></label></div>
-            <div class=""><label><button><a href="#">Formations courtes en formation continue</a></button></label></div>
-            <div class=""><label><button><a href="#">Formation DAEU (non bacheliers)</a></button></label></div>
+            <div class="">
+                <label>
+                    <button>
+                        <a href="#">Nos Formations</a>
+                    </button>
+                </label>
+            </div>
+            <div class="">
+                <label>
+                    <button>
+                        <a href="#">Licences</a>
+                    </button>
+                </label>
+            </div>
+            <div class="">
+                <label>
+                    <button>
+                        <a href="#">Formation en alternance/en apprentissage</a>
+                    </button>
+                </label>
+            </div>
+            <div class="">
+                <label>
+                    <button>
+                        <a href="#">Licences</a>
+                    </button>
+                </label>
+            </div>
+            <div class="">
+                <label>
+                    <button>
+                        <a href="#">Auditeurs libres</a>
+                    </button>
+                </label>
+            </div>
+            <div class="">
+                <label>
+                    <button>
+                        <a href="#">Formation continue</a>
+                    </button>
+                </label>
+            </div>
+            <div class="">
+                <label>
+                    <button>
+                        <a href="#">Formation à distance</a>
+                    </button>
+                </label>
+            </div>
+            <div class="">
+                <label>
+                    <button>
+                        <a href="#">Formations courtes en formation continue</a>
+                    </button>
+                </label>
+            </div>
+            <div class="">
+                <label>
+                    <button>
+                        <a href="#">Formation DAEU (non bacheliers)</a>
+                    </button>
+                </label>
+            </div>
         </div>
     </main>
 <?php include('footer.php'); ?>
