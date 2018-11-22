@@ -212,6 +212,7 @@ body div#carouselExampleIndicators {
 
 div.bandeau {
     border: 2px solid #68b51f;
+    border-radius: 5px;
 }
 
 /** Modifs page formations **/
