@@ -152,8 +152,6 @@ ul.nav-bar > li > a:hover {
 ul.nav > li > a {
     color:#47195e !important;
 }
-
-}
 /** Style page carte **/
 
 main div.container {
@@ -177,27 +175,29 @@ label button a {
 label button {
     background-color: #47195e;
 }
- a {
+a {
    text-decoration: none;
- }
- label button:hover {
+}
+label button:hover {
    background-color: white;
- }
- label button a:hover {
+}
+label button a:hover {
    text-decoration: none;
    font-weight: bold;
    background-color: white;
    color:#47195e;
- }
-
+}
+/** ATTENTION, .col fait parti de Boostrap, on est pas sensé y toucher, modifier le ciblage
 .col {
   margin: 5px 10px;
   width: 200px;
   height: auto;
-}
+} **/
+
+/** ATTENTION, rien n'est ciblé. @media sert au responsive, mais les boutons ne sont pas ciblés
 @media only screen and (max-width: 480px) {
      width: 300px;
- }
+}
 @media screen and (min-width: 481px) and (max-width: 768px) {
       width: 400px;
       float: left;
@@ -206,3 +206,4 @@ label button {
 @media screen and (min-width: 769px) {
     width: 600px;
 }
+**/
