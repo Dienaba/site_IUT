@@ -280,3 +280,8 @@ body.contact div.formulaire-contact textarea {
     padding:3%;
     color: #555;
 }
+body.contact div.formulaire-contact input.bouton-submit:hover {
+    background-color:#47195e;
+    color:#fff;
+    -webkit-transition: all 0.30s ease-in-out;
+}
