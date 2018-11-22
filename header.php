@@ -37,7 +37,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="nav-bar">
+                    <div class="container-nav-bar">
                         <ul class="nav-bar">
                             <li><a href="index.php">Accueil</a></li>
                             <li><a href="formation.php">Formations</a></li>
