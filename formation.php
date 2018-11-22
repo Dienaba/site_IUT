@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 
 <main class="container">
-    <div class="bandeau-formations">
+    <div class="bandeau">
         <h1>Formations</h1>
     </div>
     <div class="container-des-carres">
