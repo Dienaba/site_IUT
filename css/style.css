@@ -227,6 +227,8 @@ div.container-des-carres {
 div.container-des-carres div.structure-du-carre {
     border: 2px solid #47195e;
     border-radius: 5px;
+    width:32%;
+    margin:5px;
 }
 div.container-des-carres div.structure-du-carre h4 {
     text-align:center;
