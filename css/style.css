@@ -89,7 +89,10 @@ input, textarea {
     padding: 25px 0;
     margin-bottom:2%;
 }
-
+div.container-logo {
+    display:flex;
+    justify-content: space-around;
+}
 .logo {
     display: table-cell;
     vertical-align: middle;
