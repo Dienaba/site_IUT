@@ -22,7 +22,7 @@
     </head>
 
     <body>
-        <header>
+        <header <?php echo basename($_SERVER['PHP_SELF']); ?>>
             <div class="violet-bar">
                 <p class="connexion-text">
                     Vous êtes connecté en tant que : 
