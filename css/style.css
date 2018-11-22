@@ -343,15 +343,13 @@ body.contact div.formulaire-contact input.bouton-submit:hover {
     color:#fff;
     -webkit-transition: all 0.30s ease-in-out;
 }
+
 /** Partenaire Hover mettre container juste en bas  **/
-
-
-.containerPartenaire {
+body.partenaires .containerPartenaire {
     position: relative;
     width: 50%;
 }
-
-.logoPartenaire {
+body.partenaires .logoPartenaire {
   opacity: 1;
   display: block;
   width: 100%;
@@ -359,7 +357,7 @@ body.contact div.formulaire-contact input.bouton-submit:hover {
   transition: .5s ease;
   backface-visibility: hidden;
 }
-.hover {
+body.partenaires .hover {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -369,14 +367,13 @@ body.contact div.formulaire-contact input.bouton-submit:hover {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.containerPartenaire:hover .logoPartenaire {
+body.partenaires .containerPartenaire:hover .logoPartenaire {
   opacity: 0.3;
 }
-
-.containerPartenaire:hover .hover {
+body.partenaires .containerPartenaire:hover .hover {
   opacity: 1;
 }
-.text {
+body.partenaires .text {
   color:black;
   font-size: 16px;
 }
