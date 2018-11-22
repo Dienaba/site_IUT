@@ -87,6 +87,7 @@ input, textarea {
 .header {
     text-align: center;
     padding: 25px 0;
+    margin-bottom:2%;
 }
 
 .logo {
