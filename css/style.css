@@ -166,62 +166,39 @@ ul.nav > li > a {
     color:#47195e !important;
 }
 /** Style Blocs accueil **/
-div.container-des-blocs {
+body.index div.container-des-blocs {
     margin-top:2%;
     margin-bottom:2%;
     display:flex;
     flex-wrap: wrap;
 }
-div.container-des-blocs a {
+body.index div.container-des-blocs a {
     width:33%;
 }
-div.container-des-blocs a div.bloc-formation {
+body.index div.container-des-blocs a div.bloc-formation {
     text-align:center;
     margin:10px;
     border: 2px solid #47195e;
     padding:5px;
     border-radius:5px;
 }
-/**
-div.container-des-blocs div.bloc-formation a {
-}**/
-div.container-des-blocs a div.bloc-formation:hover {
+body.index div.container-des-blocs a div.bloc-formation:hover {
     background-color: #47195e;
     transition-duration: 0.5s;
 }
-div.container-des-blocs a div.bloc-formation:hover {
+body.index div.container-des-blocs a div.bloc-formation:hover {
     color:#fff !important;
     transition-duration: 0.5s;
 }
-/** ATTENTION, .col fait parti de Boostrap, on est pas sensé y toucher, modifier le ciblage
-.col {
-  margin: 5px 10px;
-  width: 200px;
-  height: auto;
-} **/
-
-/** ATTENTION, rien n'est ciblé. @media sert au responsive, mais les boutons ne sont pas ciblés
-@media only screen and (max-width: 480px) {
-     width: 300px;
-}
-@media screen and (min-width: 481px) and (max-width: 768px) {
-      width: 400px;
-      float: left;
-      margin: 10px 20px; 
- }
-@media screen and (min-width: 769px) {
-    width: 600px;
-}
-**/
 
 /** Modifs Carrousel **/
 
-body div#carouselExampleIndicators {
+body.index div#carouselExampleIndicators {
     width: 650px;
 }
 /** Modifs Carrousel taille format tablette et mobile  **/
 @media (max-width: 1024px) {
-    body div#carouselExampleIndicators  {
+    body.index div#carouselExampleIndicators  {
         margin-bottom: 30px;
         width: 100%;
     }
@@ -240,22 +217,22 @@ div.bandeau h1 {
     padding-left:15px;
 }
 /** Modifs page formations **/
-div.container-des-carres {
+body.formation div.container-des-carres {
     display:flex;
     flex-wrap:wrap;
 }
-div.container-des-carres div.structure-du-carre {
+body.formation div.container-des-carres div.structure-du-carre {
     border: 2px solid #47195e;
     border-radius: 5px;
     width:32%;
     margin:5px;
 }
-div.container-des-carres div.structure-du-carre h4 {
+body.formation div.container-des-carres div.structure-du-carre h4 {
     text-align:center;
     padding:5px;
     background-color: #47195e;
     color: #fff;
 }
-div.container-des-carres div.structure-du-carre div.description-de-la-formation {
+body.formation div.container-des-carres div.structure-du-carre div.description-de-la-formation {
     padding:10px;
 }
