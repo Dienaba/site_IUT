@@ -59,7 +59,7 @@ input, textarea {
 /** RESPONSIVE DU SITE **/
 
 @media only screen and (max-width: 480px) {
-    div.violet-bar {
+    body {
         width:100%;
     }
 }
