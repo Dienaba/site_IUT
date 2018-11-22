@@ -178,9 +178,11 @@ div.container-des-blocs div.bloc-formation a {
 }**/
 div.container-des-blocs div.bloc-formation:hover {
     background-color: #47195e;
+    transition-duration: 0.5s;
 }
 div.container-des-blocs div.bloc-formation:hover a {
     color:#fff !important;
+    transition-duration: 0.5s;
 }
 /** ATTENTION, .col fait parti de Boostrap, on est pas sensé y toucher, modifier le ciblage
 .col {
