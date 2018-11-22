@@ -166,7 +166,7 @@ div.container-des-blocs {
     display:flex;
     flex-wrap: wrap;
 }
-div.container-des-blocs div.bloc-formation {
+div.container-des-blocs a div.bloc-formation {
     text-align:center;
     width:31%;
     margin:10px;
@@ -177,11 +177,11 @@ div.container-des-blocs div.bloc-formation {
 /**
 div.container-des-blocs div.bloc-formation a {
 }**/
-div.container-des-blocs div.bloc-formation:hover {
+div.container-des-blocs a div.bloc-formation:hover {
     background-color: #47195e;
     transition-duration: 0.5s;
 }
-div.container-des-blocs div.bloc-formation:hover a {
+div.container-des-blocs a div.bloc-formation:hover {
     color:#fff !important;
     transition-duration: 0.5s;
 }
