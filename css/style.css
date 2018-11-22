@@ -175,7 +175,7 @@ div.container-des-blocs div.bloc-formation {
 /**
 div.container-des-blocs div.bloc-formation a {
 }**/
-div.container-des-blocs div.bloc-formation:hover {
+div.container-des-blocs div.bloc-formation:hover a {
     background-color: #47195e;
     color:white !important;
 }
