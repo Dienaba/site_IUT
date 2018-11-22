@@ -257,3 +257,20 @@ body.contact div.formulaire-contact {
     background: #F7F7F7;
     font: 95% Arial, Helvetica, sans-serif;
 }
+body.contact div.formulaire-contact p {
+    font-size:1.3rem;
+    color:#414141;
+    line-height:1.7;
+    font-weight:500;
+}
+body.contact div.formulaire-contact input {
+    -webkit-transition: all 0.30s ease-in-out;
+    outline:none;
+    -webkit-box-sizing: border-box;
+    width:100%;
+    background: #fff;
+    margin-bottom:2%;
+    border: 1px solid #ccc;
+    padding:3%;
+    color: #555;
+}
