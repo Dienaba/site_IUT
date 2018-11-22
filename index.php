@@ -27,7 +27,7 @@
                 <span class="sr-only">Suivant</span>
             </a>
         </div>
-        <div class="container-des-blocs row col-xs-12 col-sm-8 col-md-6 col-lg-12">
+        <div class="container-des-blocs">
             <div class=""><label><button><a href="#">Nos Formations</a></button></label></div>
             <div class=""><label><button><a href="#">Licences</a></button></label></div>
             <div class=""><label><button><a href="#">Formation en alternance/en apprentissage</a></button></label></div>
