@@ -28,25 +28,25 @@
                     Vous êtes connecté en tant que : 
                 </p>
             </div>
-        <div class="container">
-            <div class="row container-logo">
-                <div class="logo">
+            <div class="container">
+                <div class="row container-logo">
+                    <div class="logo">
+                        <div>
+                            <a href="index.php" alt="Accueil" title="Accueil">
+                                <img src="image/logo.gif" alt="IUT Informatique" title="IUT Informatique">
+                            </a>
+                        </div>
+                    </div>
                     <div>
-                        <a href="index.php" alt="Accueil" title="Accueil">
-                            <img src="image/logo.gif" alt="IUT Informatique" title="IUT Informatique">
-                        </a>
+                        <ul class="nav-bar">
+                            <li><a href="index.php">Accueil</a></li>
+                            <li><a href="formation.php">Formations</a></li>
+                            <li><a href="partenaires.php">Partenaires</a></li>
+                            <li><a href="temoignages.php">Témoignages</a></li>
+                            <li><a href="apropos.php">A propos</a></li>
+                            <li><a href="contact.php">Contact</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div>
-                    <ul class="nav-bar">
-                        <li><a href="index.php">Accueil</a></li>
-                        <li><a href="formation.php">Formations</a></li>
-                        <li><a href="partenaires.php">Partenaires</a></li>
-                        <li><a href="temoignages.php">Témoignages</a></li>
-                        <li><a href="apropos.php">A propos</a></li>
-                        <li><a href="contact.php">Contact</a></li>
-                    </ul>
-                </div>
             </div>
-        </div>
-    </header>
+        </header>
