@@ -230,7 +230,7 @@ body div#carouselExampleIndicators {
 
 /** Bandeau en haut de page **/
 
-div.bandeau {
+body.formation.php div.bandeau {
     border: 2px solid #68b51f;
     border-radius: 5px;
     margin-bottom:2%;
