@@ -296,18 +296,6 @@ div.description-de-la-formation {
     padding:20px;
 }
 
-/****************************************** STYLE Carousel *****************/
-
-#carouselExampleIndicators {
-  width: 60%;
-  height : 30%;
-}
-
-#image {
-  height: 100%;
-  width: 100%;
-}
-
 /** Style footer **/
 footer {
     margin-top:20px;
