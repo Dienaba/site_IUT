@@ -181,6 +181,7 @@ body.index div.container-des-blocs a div.bloc-formation {
     border: 2px solid #47195e;
     padding:5px;
     border-radius:5px;
+    height: 80%;
 }
 body.index div.container-des-blocs a div.bloc-formation:hover {
     background-color: #47195e;
