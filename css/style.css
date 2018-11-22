@@ -179,7 +179,7 @@ div.container-des-blocs div.bloc-formation:hover {
     background-color: #47195e;
 }
 div.container-des-blocs div.bloc-formation:hover a {
-    color:#fff;
+    color:#fff !important;
 }
 /** ATTENTION, .col fait parti de Boostrap, on est pas sensé y toucher, modifier le ciblage
 .col {
