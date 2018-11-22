@@ -13,7 +13,7 @@
             <div class="description-de-la-formation">
                 <address>Allée du Parc Montaury, 64600 Anglet</address>
                 <strong>Téléphone</strong> : 05.59.57.43.20 <br>
-                <strong>Mail</strong> : <a href="mailto:sec-info@iutbayonne.univ-pau.fr">sec-info@iutbayonne.univ-pau.fr</a><br>
+                <strong>Mail</strong> : sec-info@iutbayonne.univ-pau.fr<br>
                 <strong>Fax</strong> : 05.59.57.43.29
             </div>
         </div>
@@ -31,7 +31,7 @@
             <div class="lieu-de-la-formation"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2630.2885306503536!2d-3.453766384329205!3d48.757286079277655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48122c034b5275af%3A0x355e62516b08c22f!2sIUT+Lannion!5e0!3m2!1sfr!2sfr!4v1542726663874" width="348" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
             <div class="description-de-la-formation">
                 <address>Rue Edouard Branly, 22302 Lannion</address>
-                <strong>Mail</strong> : <a href="mailto:accueil-iutlan@univ-rennes1.fr">accueil-iutlan@univ-rennes1.fr</a>
+                <strong>Mail</strong> : accueil-iutlan@univ-rennes1.fr
             </div>
         </div>
     </div>
