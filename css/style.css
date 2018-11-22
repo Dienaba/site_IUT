@@ -222,6 +222,7 @@ div.bandeau h1 {
 /** Modifs page formations **/
 div.container-des-carres {
     display:flex;
+    flex-wrap:wrap;
 }
 div.container-des-carres div.structure-du-carre {
     border: 2px solid #47195e;
