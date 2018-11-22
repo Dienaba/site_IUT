@@ -56,6 +56,14 @@ input, textarea {
     color: #4A4A4A;
 }
 
+/** RESPONSIVE DU SITE **/
+
+@media only screen and (max-width: 480px) {
+    div.violet-bar {
+        width:100%;
+    }
+}
+
 /* Reset default bootstrap grid settings
 ---------------------------------- */
 
@@ -87,6 +95,7 @@ input, textarea {
 .header {
     text-align: center;
     padding: 25px 0;
+    margin-bottom:2%;
 }
 
 .logo {
@@ -150,6 +159,9 @@ ul.nav-bar > li > a:hover {
 }
 
 /** footer **/
+footer {
+    margin-top:2% !important;
+}
 ul.nav > li > a {
     color:#47195e !important;
 }
@@ -207,6 +219,14 @@ div.container-des-blocs a div.bloc-formation:hover {
 body div#carouselExampleIndicators {
     width: 650px;
 }
+/** Modifs Carrousel taille format tablette et mobile  **/
+@media (max-width: 1024px) {
+    body div#carouselExampleIndicators  {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}
+
 
 
 
