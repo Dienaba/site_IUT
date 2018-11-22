@@ -21,8 +21,8 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </head>
 
-    <body>
-        <header class="<?php echo basename($_SERVER['PHP_SELF']); ?>">
+    <body class="<?php echo basename($_SERVER['PHP_SELF']); ?>">
+        <header>
             <div class="violet-bar">
                 <p class="connexion-text">
                     Vous êtes connecté en tant que : 
