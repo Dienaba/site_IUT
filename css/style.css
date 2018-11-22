@@ -165,6 +165,7 @@ body.index .bloc-connexion {
     /** border: 3px solid #3c2e60; **/
     background-color: #3c2e60;
     color:white;
+    border-radius:5px;
 }
 body.index .bloc-connexion input {
     border-bottom: 3px solid #bbcc27!important;
