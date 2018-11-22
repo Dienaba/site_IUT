@@ -169,12 +169,13 @@ div.container-des-blocs div.bloc-formation {
     text-align:center;
     width:31%;
     margin:10px;
-}
-div.container-des-blocs div.bloc-formation a {
     border: 2px solid #47195e;
     padding:5px;
 }
-div.container-des-blocs div.bloc-formation a:hover {
+/**
+div.container-des-blocs div.bloc-formation a {
+}**/
+div.container-des-blocs div.bloc-formation:hover {
     background-color: #47195e;
     color:white;
 }
