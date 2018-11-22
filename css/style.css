@@ -158,8 +158,10 @@ main div.container {
     margin-top:25px;
 }
 
-/** Style buttons formation accueil **/
-
+/** Style Blocs accueil **/
+div.container-des-blocs {
+    margin-top:2%;
+}
 label button a {
     display: block;
     height: auto;
