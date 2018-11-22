@@ -173,6 +173,13 @@ body.index .bloc-connexion button {
     background-color: #a8df2e;
     -webkit-transition: all 0.30s ease-in-out;
 }
+body.index div.bloc-connexion form {
+    margin-top:20px;
+    text-align:center;
+}
+body.index div.bloc-connexion form label {
+    margin-bottom: 0px !important;
+}
 /** footer **/
 footer {
     margin-top:2% !important;
