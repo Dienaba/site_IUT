@@ -177,7 +177,6 @@ body.index .bloc-connexion input {
 body.index .bloc-connexion button {
     background-color: #bbcc27;
     color: #3c2e60;
-    border: 2px solid #68b51f;
     -webkit-transition: all 0.30s ease-in-out;
 }
 body.index div.bloc-connexion form {
