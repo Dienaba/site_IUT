@@ -244,3 +244,16 @@ div.container-des-carres div.structure-du-carre h4 {
 div.container-des-carres div.structure-du-carre div.description-de-la-formation {
     padding:10px;
 }
+
+/***** PAGE CONTACT *****/
+
+body.contact div.formulaire-contact {
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
+    text-align:center;
+    max-width:70%;
+    padding:16px;
+    background: #F7F7F7;
+    font: 95% Arial, Helvetica, sans-serif;
+}
