@@ -33,6 +33,9 @@
                             <textarea name="votre-message" cols="40" rows="10"></textarea>
                         </span>
                     </p>
+                    <p>
+                        <input type="submit" value="Envoyer" class="bouton-submit">
+                    </p>
                 </form>
             </div>
         </div>
