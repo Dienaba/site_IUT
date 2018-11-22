@@ -162,10 +162,13 @@ main div.container {
 div.container-des-blocs {
     margin-top:2%;
     margin-bottom:2%;
+    display:flex;
+    flex-wrap: wrap;
 }
 div.container-des-blocs div.bloc-formation {
     text-align:center;
-    width: 25%;
+    width:31%;
+    margin:10px;
 }
 div.container-des-blocs div.bloc-formation a {
     border: 2px solid #47195e;
