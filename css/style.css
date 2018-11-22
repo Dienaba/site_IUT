@@ -110,9 +110,7 @@ input, textarea {
 /****************************************** STYLE HEADER *****************/
 
 /** STYLE NAV BAR HEADER **/ 
-header {
-    margin-bottom:20px;
-}
+
 div.header-container {
     margin-top:2%;
 }
@@ -148,41 +146,107 @@ ul.nav-bar > li > a {
 ul.nav-bar > li > a:hover {
     border: 2px solid #68b51f;
     background-color: #a8df2e;
+    transition-duration: 0.5s;
 }
 
 /** footer **/
 ul.nav > li > a {
     color:#47195e !important;
 }
-/** Style page carte **/
+/** Style Blocs accueil **/
+div.container-des-blocs {
+    margin-top:2%;
+    margin-bottom:2%;
+    display:flex;
+    flex-wrap: wrap;
+}
+div.container-des-blocs a {
+    width:33%;
+}
+div.container-des-blocs a div.bloc-formation {
+    text-align:center;
+    margin:10px;
+    border: 2px solid #47195e;
+    padding:5px;
+    border-radius:5px;
+}
+/**
+div.container-des-blocs div.bloc-formation a {
+}**/
+div.container-des-blocs a div.bloc-formation:hover {
+    background-color: #47195e;
+    transition-duration: 0.5s;
+}
+div.container-des-blocs a div.bloc-formation:hover {
+    color:#fff !important;
+    transition-duration: 0.5s;
+}
+/** ATTENTION, .col fait parti de Boostrap, on est pas sensé y toucher, modifier le ciblage
+.col {
+  margin: 5px 10px;
+  width: 200px;
+  height: auto;
+} **/
 
-main div.container {
-    margin-top:25px;
+/** ATTENTION, rien n'est ciblé. @media sert au responsive, mais les boutons ne sont pas ciblés
+@media only screen and (max-width: 480px) {
+     width: 300px;
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+      width: 400px;
+      float: left;
+      margin: 10px 20px; 
+ }
+@media screen and (min-width: 769px) {
+    width: 600px;
+}
+**/
+
+/** Modifs Carrousel **/
+
+body div#carouselExampleIndicators {
+    width: 650px;
 }
 
-/** Style page formations **/
-div.bandeau-formations {
+
+
+/** Bandeau en haut de page **/
+
+div.bandeau {
+
     border: 2px solid #68b51f;
     border-radius: 5px;
+    margin-bottom:2%;
 }
+
 div.bandeau-formations h1 {
     padding:10px;
     padding-left:20px;
 }
+    
+div.bandeau h1 {
+    padding:5px;
+    padding-left:15px;
+
+}
+/** Modifs page formations **/
 div.container-des-carres {
     display:flex;
+    flex-wrap:wrap;
 }
-div.structure-du-carre {
-    border: 1px solid black;
-    margin:10px;
-    border-radius:5px;
+div.container-des-carres div.structure-du-carre {
+    border: 2px solid #47195e;
+    border-radius: 5px;
+    width:32%;
+    margin:5px;
 }
-h4.titre-de-la-formation {
+div.container-des-carres div.structure-du-carre h4 {
     text-align:center;
+    padding:5px;
     background-color: #47195e;
-    color:white;
-    padding: 10px;
+    color: #fff;
 }
+
 div.description-de-la-formation {
     padding:20px;
 }
@@ -204,4 +268,7 @@ div.description-de-la-formation {
 /** Style footer **/
 footer {
     margin-top:20px;
+}
+div.container-des-carres div.structure-du-carre div.description-de-la-formation {
+    padding:10px;
 }
