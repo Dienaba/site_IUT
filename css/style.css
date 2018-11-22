@@ -165,6 +165,7 @@ div.container-des-blocs {
 }
 div.container-des-blocs div.bloc-formation {
     text-align:center;
+    width: 25%;
 }
 div.container-des-blocs div.bloc-formation a {
     border: 2px solid #47195e;
