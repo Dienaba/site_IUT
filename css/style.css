@@ -147,8 +147,7 @@ ul.nav-bar > li > a {
 ul.nav-bar > li > a:hover {
     border: 2px solid #68b51f;
     background-color: #a8df2e;
-    transition-duration: 0.5s;
-}
+    -webkit-transition: all 0.30s ease-in-out;
 
 /** footer **/
 footer {
@@ -180,11 +179,11 @@ div.container-des-blocs div.bloc-formation a {
 }**/
 div.container-des-blocs a div.bloc-formation:hover {
     background-color: #47195e;
-    transition-duration: 0.5s;
+    -webkit-transition: all 0.30s ease-in-out;
 }
 div.container-des-blocs a div.bloc-formation:hover {
     color:#fff !important;
-    transition-duration: 0.5s;
+    -webkit-transition: all 0.30s ease-in-out;
 }
 /** ATTENTION, .col fait parti de Boostrap, on est pas sensé y toucher, modifier le ciblage
 .col {
