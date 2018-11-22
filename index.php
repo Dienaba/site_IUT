@@ -1,6 +1,8 @@
 <?php include('header.php'); ?>
     <main class="container">
         <!-- Pour modifier les carousel mettre le modif du width ici -->
+    
+        <div class="row">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -26,6 +28,17 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Suivant</span>
             </a>
+        </div>
+        
+        <div class="bloc-connexion col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3">
+            <form class="form-group" action="connexion.php" method="post">
+                <label for="login">Adresse e-mail</label>
+                    <input class="form-control" type="text" name="login">
+                <label for="password">Mot de passe</label>
+                    <input class="form-control" type="password" name="password">
+                <button type="button" class="btn btn-lg btn-block">Se connecter</button>
+            </form>
+        </div>
         </div>
         <div class="container-des-blocs">
             <a href="#">

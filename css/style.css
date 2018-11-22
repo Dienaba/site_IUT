@@ -31,7 +31,7 @@ a {
     text-transform: uppercase;
     cursor: pointer;
     display: block;
-    color: #47195e !important;
+    color: #3c2e60 !important;
     position: relative;
 }
 
@@ -125,7 +125,7 @@ div.header-container {
 }
 div.violet-bar {
     height:25px;
-    background-color:#47195e;
+    background-color:#3c2e60;
 }
 p.connexion-text {
     color:white;
@@ -143,7 +143,7 @@ ul.nav-bar {
     font-weight: 600;
 }
 ul.nav-bar > li > a {
-    border: 2px solid #a8df2e;
+    border: 2px solid #bbcc27;
     border-radius: 5px;
     color: #ffffff;
     font-weight: bold;
@@ -153,17 +153,36 @@ ul.nav-bar > li > a {
     display: inline-block;
 }
 ul.nav-bar > li > a:hover {
-    border: 2px solid #68b51f;
-    background-color: #a8df2e;
+    border: 2px solid #bbcc27;
+    background-color: #bbcc27;
     transition-duration: 0.5s;
 }
 
-/** footer **/
-footer {
-    margin-top:2% !important;
+
+/** BLOC CONNEXION **/
+
+.bloc-connexion {
+    /** border: 3px solid #3c2e60; **/
+    background-color: #3c2e60;
+    margin:0px auto;
+    color:white;
 }
+.bloc-connexion input {
+    border-bottom: 3px solid #bbcc27!important;
+    margin: 10px 0px!important;
+    border:none;
+    background-color:#3c2e60;
+    border-radius:0px!important;
+}
+.bloc-connexion button {
+    background-color: #bbcc27;
+    color: #3c2e60;
+}
+
+/** ========= **/
+
 ul.nav > li > a {
-    color:#47195e !important;
+    color:#3c2e60 !important;
 }
 /** Style Blocs accueil **/
 div.container-des-blocs {
@@ -178,7 +197,7 @@ div.container-des-blocs a {
 div.container-des-blocs a div.bloc-formation {
     text-align:center;
     margin:10px;
-    border: 2px solid #47195e;
+    border: 2px solid #3c2e60;
     padding:5px;
     border-radius:5px;
 }
@@ -186,7 +205,7 @@ div.container-des-blocs a div.bloc-formation {
 div.container-des-blocs div.bloc-formation a {
 }**/
 div.container-des-blocs a div.bloc-formation:hover {
-    background-color: #47195e;
+    background-color: #3c2e60;
     transition-duration: 0.5s;
 }
 div.container-des-blocs a div.bloc-formation:hover {
@@ -229,12 +248,11 @@ body div#carouselExampleIndicators {
 
 
 
-
 /** Bandeau en haut de page **/
 
 div.bandeau {
 
-    border: 2px solid #68b51f;
+    border: 2px solid #bbcc27;
     border-radius: 5px;
     margin-bottom:2%;
 }
@@ -255,7 +273,7 @@ div.container-des-carres {
     flex-wrap:wrap;
 }
 div.container-des-carres div.structure-du-carre {
-    border: 2px solid #47195e;
+    border: 2px solid #3c2e60;
     border-radius: 5px;
     width:32%;
     margin:5px;
@@ -263,7 +281,7 @@ div.container-des-carres div.structure-du-carre {
 div.container-des-carres div.structure-du-carre h4 {
     text-align:center;
     padding:5px;
-    background-color: #47195e;
+    background-color: #3c2e60;
     color: #fff;
 }
 
@@ -276,8 +294,6 @@ div.description-de-la-formation {
 #carouselExampleIndicators {
   width: 60%;
   height : 30%;
-  margin-left: 50px;
-  margin-top: 30px;
 }
 
 #image {
