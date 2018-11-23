@@ -168,11 +168,20 @@ body.index .bloc-connexion {
     border-radius:5px;
 }
 body.index .bloc-connexion input {
-    border-bottom: 3px solid #bbcc27!important;
+    border-bottom: 1px solid #bbcc27!important;
     margin: 10px 0px!important;
     border:none;
     background-color:#3c2e60;
     border-radius:0px!important;
+}
+body.index .bloc-connexion input:focus {
+    outline-width: 0;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
 body.index .bloc-connexion button {
     background-color: #bbcc27;
@@ -246,49 +255,7 @@ div.container-des-blocs a div.bloc-formation:hover {
 @media screen and (min-width: 769px) {
     width: 600px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
- a {
-   text-decoration: none;
- }
- label button:hover {
-   background-color: white;
- }
- label button a:hover {
-   text-decoration: none;
-   font-weight: bold;
-   background-color: white;
-   color:#47195e!important;
- }
-
-=======
-/** ATTENTION, .col fait parti de Boostrap, on est pas sensé y toucher, modifier le ciblage
->>>>>>> ac74b2ae013d85f8bf86b946988ada8748a705e9
-.col {
-  margin: 5px 10px;
-  width: 200px;
-  height: auto;
-} **/
-
-/** ATTENTION, rien n'est ciblé. @media sert au responsive, mais les boutons ne sont pas ciblés
-@media only screen and (max-width: 480px) {
-     width: 300px;
-}
-@media screen and (min-width: 481px) and (max-width: 768px) {
-      width: 400px;
-      float: left;
-      margin: 10px 20px; 
- }
-@media screen and (min-width: 769px) {
-    width: 600px;
-}
 **/
-=======
->>>>>>> 7e3ee9134749a79e4393e24ed58c091adae24efa
-=======
-**/
->>>>>>> 69392585dc50c9ac22ee39f8691ae75ac2bdaede
 
 /** Modifs Carrousel **/
 
