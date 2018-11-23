@@ -31,7 +31,7 @@ a {
     text-transform: uppercase;
     cursor: pointer;
     display: block;
-    color: #47195e !important;
+    color: #3c2e60 !important;
     position: relative;
 }
 
@@ -54,14 +54,6 @@ input, textarea {
     padding: 15px;
     background: #fff;
     color: #4A4A4A;
-}
-
-/** RESPONSIVE DU SITE **/
-
-@media only screen and (max-width: 480px) {
-    div.violet-bar {
-        width:100%;
-    }
 }
 
 /* Reset default bootstrap grid settings
@@ -97,7 +89,14 @@ input, textarea {
     padding: 25px 0;
     margin-bottom:2%;
 }
-
+div.container-logo {
+    display:flex;
+    justify-content: space-around;
+}
+div.container-banner {
+    display:flex;
+    justify-content: space-around;
+}
 .logo {
     display: table-cell;
     vertical-align: middle;
@@ -125,7 +124,7 @@ div.header-container {
 }
 div.violet-bar {
     height:25px;
-    background-color:#47195e;
+    background-color:#3c2e60;
 }
 p.connexion-text {
     color:white;
@@ -141,9 +140,10 @@ ul.nav-bar {
     display:flex;
     justify-content: space-around;
     font-weight: 600;
+    padding-left:0px !important;
 }
 ul.nav-bar > li > a {
-    border: 2px solid #a8df2e;
+    border: 2px solid #bbcc27;
     border-radius: 5px;
     color: #ffffff;
     font-weight: bold;
@@ -153,44 +153,100 @@ ul.nav-bar > li > a {
     display: inline-block;
 }
 ul.nav-bar > li > a:hover {
-    border: 2px solid #68b51f;
-    background-color: #a8df2e;
+    border: 2px solid #bbcc27;
+    background-color: #bbcc27;
     transition-duration: 0.5s;
 }
 
+
+/** BLOC CONNEXION **/
+
+body.index .bloc-connexion {
+    /** border: 3px solid #3c2e60; **/
+    background-color: #3c2e60;
+    color:white;
+    border-radius:5px;
+}
+body.index .bloc-connexion input {
+    border-bottom: 3px solid #bbcc27!important;
+    margin: 10px 0px!important;
+    border:none;
+    background-color:#3c2e60;
+    border-radius:0px!important;
+}
+body.index .bloc-connexion button {
+    background-color: #bbcc27;
+    color: #3c2e60;
+    -webkit-transition: all 0.30s ease-in-out;
+}
+body.index div.bloc-connexion form {
+    margin-top:20px;
+    text-align:center;
+}
+body.index div.bloc-connexion form label {
+    margin-bottom: 0px !important;
+    margin-top: 10px !important;
+}
 /** footer **/
 footer {
     margin-top:2% !important;
 }
+
+/** ========= **/
+
 ul.nav > li > a {
-    color:#47195e !important;
+    color:#3c2e60 !important;
 }
 /** Style Blocs accueil **/
-body.index div.container-des-blocs {
+div.container-des-blocs {
     margin-top:2%;
     margin-bottom:2%;
     display:flex;
     flex-wrap: wrap;
 }
-body.index div.container-des-blocs a {
+div.container-des-blocs a {
     width:33%;
 }
-body.index div.container-des-blocs a div.bloc-formation {
+div.container-des-blocs a div.bloc-formation {
     text-align:center;
     margin:10px;
-    border: 2px solid #47195e;
+    border: 2px solid #3c2e60;
     padding:5px;
     border-radius:5px;
-    height: 80%;
+    height:80%;
 }
-body.index div.container-des-blocs a div.bloc-formation:hover {
-    background-color: #47195e;
+/**
+div.container-des-blocs div.bloc-formation a {
+}**/
+div.container-des-blocs a div.bloc-formation:hover {
+    background-color: #3c2e60;
     transition-duration: 0.5s;
+    -webkit-transition: all 0.30s ease-in-out;
 }
-body.index div.container-des-blocs a div.bloc-formation:hover {
+div.container-des-blocs a div.bloc-formation:hover {
     color:#fff !important;
-    transition-duration: 0.5s;
+    -webkit-transition: all 0.30s ease-in-out;
 }
+/** ATTENTION, .col fait parti de Boostrap, on est pas sensé y toucher, modifier le ciblage
+.col {
+  margin: 5px 10px;
+  width: 200px;
+  height: auto;
+} **/
+
+/** ATTENTION, rien n'est ciblé. @media sert au responsive, mais les boutons ne sont pas ciblés
+@media only screen and (max-width: 480px) {
+     width: 300px;
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+      width: 400px;
+      float: left;
+      margin: 10px 20px; 
+ }
+@media screen and (min-width: 769px) {
+    width: 600px;
+}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  a {
@@ -230,49 +286,140 @@ body.index div.container-des-blocs a div.bloc-formation:hover {
 **/
 =======
 >>>>>>> 7e3ee9134749a79e4393e24ed58c091adae24efa
+=======
+**/
+>>>>>>> 69392585dc50c9ac22ee39f8691ae75ac2bdaede
 
 /** Modifs Carrousel **/
 
 body.index div#carouselExampleIndicators {
     width: 650px;
 }
-/** Modifs Carrousel taille format tablette et mobile  **/
-@media (max-width: 1024px) {
-    body.index div#carouselExampleIndicators  {
-        margin-bottom: 30px;
-        width: 100%;
-    }
+body.index div.carousel-inner {
+    border-radius:20px;
 }
 
 
 /** Bandeau en haut de page **/
 
 div.bandeau {
-    border: 2px solid #68b51f;
+
+    border: 2px solid #bbcc27;
     border-radius: 5px;
     margin-bottom:2%;
 }
+
+div.bandeau-formations h1 {
+    padding:10px;
+    padding-left:20px;
+}
+    
 div.bandeau h1 {
     padding:5px;
     padding-left:15px;
+
 }
 /** Modifs page formations **/
-body.formation div.container-des-carres {
+div.container-des-carres {
     display:flex;
     flex-wrap:wrap;
 }
-body.formation div.container-des-carres div.structure-du-carre {
-    border: 2px solid #47195e;
+div.container-des-carres div.structure-du-carre {
+    border: 2px solid #3c2e60;
     border-radius: 5px;
     width:32%;
     margin:5px;
 }
-body.formation div.container-des-carres div.structure-du-carre h4 {
+div.container-des-carres div.structure-du-carre h4 {
     text-align:center;
     padding:5px;
-    background-color: #47195e;
+    background-color: #3c2e60;
     color: #fff;
 }
-body.formation div.container-des-carres div.structure-du-carre div.description-de-la-formation {
+
+div.description-de-la-formation {
+    padding:20px;
+}
+
+/** Style footer **/
+footer {
+    margin-top:20px;
+}
+div.container-des-carres div.structure-du-carre div.description-de-la-formation {
     padding:10px;
+}
+
+/***** PAGE CONTACT *****/
+
+body.contact div.formulaire-contact {
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
+    text-align:center;
+    max-width:70%;
+    padding:16px;
+    background: #F7F7F7;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+body.contact div.formulaire-contact p {
+    font-size:1.3rem;
+    color:#414141;
+    font-weight:500;
+}
+body.contact div.formulaire-contact p label {
+    display:inline-block;
+    max-width:100%;
+    margin-bottom:5px;
+    font-weight:700;
+}
+body.contact div.formulaire-contact input,
+body.contact div.formulaire-contact textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    outline:none;
+    -webkit-box-sizing: border-box;
+    width:100%;
+    background: #fff;
+    margin-bottom:2%;
+    border: 1px solid #ccc;
+    padding:3%;
+    color: #555;
+}
+body.contact div.formulaire-contact input.bouton-submit:hover {
+    background-color:#3c2e60;
+    color:#fff;
+    -webkit-transition: all 0.30s ease-in-out;
+}
+
+/** Partenaire Hover mettre container juste en bas  **/
+body.partenaires .containerPartenaire {
+    position: relative;
+    width: 50%;
+}
+body.partenaires .logoPartenaire {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+body.partenaires .hover {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+body.partenaires .containerPartenaire:hover .logoPartenaire {
+  opacity: 0.3;
+}
+body.partenaires .containerPartenaire:hover .hover {
+  opacity: 1;
+}
+body.partenaires .text {
+  color:black;
+  font-size: 16px;
 }
