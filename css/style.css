@@ -168,11 +168,20 @@ body.index .bloc-connexion {
     border-radius:5px;
 }
 body.index .bloc-connexion input {
-    border-bottom: 3px solid #bbcc27!important;
+    border-bottom: 1px solid #bbcc27!important;
     margin: 10px 0px!important;
     border:none;
     background-color:#3c2e60;
     border-radius:0px!important;
+}
+body.index .bloc-connexion input:focus {
+    outline-width: 0;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
 body.index .bloc-connexion button {
     background-color: #bbcc27;
