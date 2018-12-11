@@ -11,7 +11,7 @@
 <body>
     <?php
     setcookie ("login", $login, time() - 3600); 
-    setcookie ("mdp", $mdp, time() - 3600); ?>
+    setcookie ("password", $mdp, time() - 3600); ?>
 Tu es maintenant déconnecté ! Tu seras redirigé dans 5 sec. vers la page d'accueil.
 <?php header("location:index.php");?>
 </body>

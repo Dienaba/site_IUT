@@ -1,4 +1,5 @@
-<?php include('header.php'); ?>
+<?php include('header.php'); 
+?>
     <main class="container">
         <!-- Pour modifier les carousel mettre le modif du width ici -->
     
@@ -31,12 +32,25 @@
         </div>
         
         <div class="bloc-connexion col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3">
-            <form class="form-group" action="connexion.php" method="post">
+            <?php 
+                    if (isset($_COOKIE['login'])) { ?>
+            Bienvenue !
+                <?php }else{ ?>
+                 <form class="form-group" action="authentification.php" method="post">
                 <label for="login">Adresse e-mail</label>
                     <input class="form-control" type="text" name="login">
                 <label for="password">Mot de passe</label>
                     <input class="form-control" type="password" name="password">
-                <button type="button" class="btn btn-lg btn-block">Se connecter</button>
+                        
+                    <?php } ?>
+                <?php 
+                    if (isset($_COOKIE['login'])) { ?>
+                    <form action="deconnexion.php">
+                        <button class="btn btn-lg btn-block" type="submit">Deconnexion</button>
+                    </form>
+                <?php }else{ ?>
+                    <button class="btn btn-lg btn-block" type="submit">Se connecter</button>
+                <?php } ?>
             </form>
         </div>
         </div>

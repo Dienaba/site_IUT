@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<?php
+session_start();
+require_once('connexion.php');
+?>
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
@@ -23,11 +27,16 @@
 
     <body class="<?php echo basename($_SERVER['PHP_SELF'], ".php"); ?>">
         <header>
-            <div class="violet-bar">
-                <p class="connexion-text">
-                    Vous êtes connecté en tant que : 
+            <?php 
+            if(isset($_COOKIE['login'])) { ?>
+                <div class="violet-bar">
+                <p class="connexion-text">Vous êtes connecté en tant que : <?php echo $_COOKIE['login'] ?>
                 </p>
             </div>
+            <?php }else{ ?>
+            <div class="violet-bar">
+            </div>
+            <?php } ?>
             <div class="container">
                 <div class="row container-logo">
                     <div class="logo">
