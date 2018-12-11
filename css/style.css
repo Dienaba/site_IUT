@@ -291,7 +291,7 @@ body.index div#carouselExampleIndicators {
     width: 650px;
 }
 body.index div.carousel-inner {
-    border-radius:20px;
+    border-radius:5px;
 }
 
 
@@ -386,6 +386,10 @@ body.contact div.formulaire-contact input.bouton-submit:hover {
 }
 
 /** Partenaire Hover mettre container juste en bas  **/
+.lesPartenaires {
+    display: flex;
+    flex-wrap: wrap;
+}
 body.partenaires .containerPartenaire {
     position: relative;
     width: 50%;
@@ -397,6 +401,7 @@ body.partenaires .logoPartenaire {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  padding: 15px;
 }
 body.partenaires .hover {
   transition: .5s ease;

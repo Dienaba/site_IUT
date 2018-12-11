@@ -19,7 +19,9 @@ if ($user=mysql_fetch_assoc($result)) {
     header("location:bienvenue.php");
     
 }else{
-    header("location:login.html");
+    setcookie ("login", $login, time() - 3600); 
+    setcookie ("password", $mdp, time() - 3600);
+    header("location:index.php");
 }
  
 ?>
