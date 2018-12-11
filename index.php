@@ -37,10 +37,10 @@
             Bienvenue !
                 <?php }else{ ?>
                  <form class="form-group" action="authentification.php" method="post">
-                <label for="login">Adresse e-mail</label>
-                    <input class="form-control" type="text" name="login">
-                <label for="password">Mot de passe</label>
-                    <input class="form-control" type="password" name="password">
+                    <label for="login">Adresse e-mail</label>
+                        <input class="form-control" type="text" name="login">
+                    <label for="password">Mot de passe</label>
+                        <input class="form-control" type="password" name="password">
                         
                     <?php } ?>
                 <?php 
