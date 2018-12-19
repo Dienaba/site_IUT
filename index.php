@@ -12,13 +12,13 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img id="image" class="d-block w-100" src="image/Cosmos02.jpg" alt="First slide">
+                    <img id="image" class="d-block w-100" src="image/diapo1.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img id="image" class="d-block w-100" src="image/Cosmos03.jpg" alt="Second slide">
+                    <img id="image" class="d-block w-100" src="image/diapo2.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img id="image" class="d-block w-100" src="image/Cosmos04.jpg" alt="Third slide">
+                    <img id="image" class="d-block w-100" src="image/diapo3.jpg" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

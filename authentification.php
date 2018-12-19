@@ -10,10 +10,9 @@ if ($login == '') {
 	setCookie('password', $mdp, time() + 1*24*60*60);
 }
 require_once('connexion.php');
-$req = "SELECT * FROM admin WHERE login = '$login' AND password = '$mdp'";
-$result = mysql_query($req) or die ('Erreur SQL !<br>'.$req.'<br>'.mysql_error);
+$query = mysqli_query($conn, "SELECT * FROM admin WHERE login = '$login' AND password = '$mdp'") or die(mysqli_error($conn));
 
-if ($user=mysql_fetch_assoc($result)) {
+if ($user=mysqli_fetch_assoc($query)) {
     session_start();
     $_COOKIE['login'] = $user['login'];
     header("location:bienvenue.php");
