@@ -55,28 +55,43 @@
         </div>
         <div class="container-des-blocs">
             <a href="#">
-                <div class="bloc-formation">Nos Formations</div>
+                <div class="bloc-formation">
+                    <p>Nos Formations</p>
+                </div>
             </a>
             <a href="#">
-                <div class="bloc-formation">Licences</div>
+                <div class="bloc-formation">
+                    <p>Licences</p>
+                </div>
             </a>
             <a href="#">
-                <div class="bloc-formation">Nos Formations en alternance / en apprentissage</div>
+                <div class="bloc-formation">
+                    <p>Nos Formations en alternance / en apprentissage</p>
+                </div>
             </a>
             <a href="#">
-                <div class="bloc-formation">Auditeurs libres</div>
+                <div class="bloc-formation">
+                    <p>Auditeurs libres</p>
+                </div>
             </a>
             <a href="#">
-                <div class="bloc-formation">Nos Formations continues</div>
+                <div class="bloc-formation">
+                    <p>Nos Formations continues</p>
+                </div>
             </a>
             <a href="#">
-                <div class="bloc-formation">Nos Formations à distance</div>
+                <div class="bloc-formation">
+                    <p>Nos Formations à distance</p>
+                </div>
             </a>
             <a href="#">
-                <div class="bloc-formation">Nos Formations courtes en formation continue</div>
+                <div class="bloc-formation">
+                    <p>Nos Formations courtes en formation continue</p>
+                </div>
             </a>
             <a href="#">
-                <div class="bloc-formation">Formation DAEU (non bacheliers)</div>
+                <div class="bloc-formation">
+                    <p>Formation DAEU (non bacheliers)</p></div>
             </a>
         </div>
     </main>

@@ -303,16 +303,13 @@ div.bandeau {
     border-radius: 5px;
     margin-bottom:2%;
 }
-
 div.bandeau-formations h1 {
     padding:10px;
     padding-left:20px;
-}
-    
+}   
 div.bandeau h1 {
     padding:5px;
     padding-left:15px;
-
 }
 /** Modifs page formations **/
 div.container-des-carres {
@@ -331,11 +328,9 @@ div.container-des-carres div.structure-du-carre h4 {
     background-color: #3c2e60;
     color: #fff;
 }
-
 div.description-de-la-formation {
     padding:20px;
 }
-
 /** Style footer **/
 footer {
     margin-top:20px;
@@ -343,7 +338,6 @@ footer {
 div.container-des-carres div.structure-du-carre div.description-de-la-formation {
     padding:10px;
 }
-
 /***** PAGE CONTACT *****/
 
 body.contact div.formulaire-contact {
@@ -422,4 +416,10 @@ body.partenaires .containerPartenaire:hover .hover {
 body.partenaires .text {
   color:black;
   font-size: 16px;
+}
+
+/************************ BLOC PAGE D'ACCUEIL ************************************/
+
+div.bloc-formation p {
+    margin:12px;
 }
