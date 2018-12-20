@@ -32,6 +32,11 @@
             <div class="bloc-connexion col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3">
             <?php if (isset($_COOKIE['login'])) { ?>
                 <p class="message-de-bienvenue">Bienvenue <?php echo $_COOKIE['login'] ?> !</p>
+                <ul class="menu-bloc-connexion">
+                    <li class="modif-info">Modifier vos informations</li>
+                    <li class="temoignage">Déposer un témoignage</li>
+                    <li class="nous-contact">Nous contacter</li>
+                </ul>
             <?php }else{ ?>
                 <form class="form-group" action="authentification.php" method="post">
                     <label for="login">Adresse e-mail</label>
