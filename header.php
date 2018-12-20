@@ -47,8 +47,8 @@ require_once('connexion.php');
                         </div>
                     </div>
                     <form class="barre-de-recherche" action="verif-form.php" method="get">
-                        <input type="search" name="terme">
-                        <input type="submit" name="s" value="Rechercher">
+                        <input class="champ-de-recherche" type="search" name="terme">
+                        <input class="bouton-rechercher" type="submit" name="s" value="Rechercher">
                     </form>
                     <div class="container-nav-bar">
                         <ul class="nav-bar">
