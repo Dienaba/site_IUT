@@ -73,7 +73,6 @@
                         <p class="texte-bloc-formation">Nos Formations en alternance / en apprentissage</p>
                     </a>
                 </div>
-                
                 <div class="bloc-formation">
                     <a href="404.php">
                         <p class="texte-bloc-formation">Auditeurs libres</p>
