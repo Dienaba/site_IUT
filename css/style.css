@@ -326,7 +326,7 @@ body.index div#carouselExampleIndicators {
     width: 650px;
 }
 body.index div.carousel-inner {
-    border-radius:5px;
+    border-radius:10px;
 }
 
 
