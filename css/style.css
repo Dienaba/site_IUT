@@ -268,7 +268,6 @@ div.container-des-blocs {
     margin-top:2%;
     margin-bottom:2%;
     display:flex;
-    flex-wrap: wrap;
 }
 div.container-des-blocs a {
     width:33%;
@@ -281,7 +280,8 @@ div.container-des-blocs div.bloc-formation a {
     border-radius:5px;
     height:65%;
     display:flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
+    width:90%;
 }
 /**
 div.container-des-blocs div.bloc-formation a {
