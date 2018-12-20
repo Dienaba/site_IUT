@@ -57,45 +57,48 @@
         </div>
         </div>
         <div class="container-des-blocs">
-            <a href="404.php">
-                <div class="bloc-formation">
+            <div class="bloc-formation">
+                <a href="404.php">
                     <p class="texte-bloc-formation">Nos Formations</p>
-                </div>
-            </a>
-            <a href="404.php">
-                <div class="bloc-formation">
+                </a>
+            </div>
+            <div class="bloc-formation">
+                <a href="404.php">
                     <p class="texte-bloc-formation">Licences</p>
-                </div>
-            </a>
-            <a href="404.php">
-                <div class="bloc-formation">
+                </a>
+            </div>
+            <div class="bloc-formation">
+                <a href="404.php">
                     <p class="texte-bloc-formation">Nos Formations en alternance / en apprentissage</p>
-                </div>
-            </a>
-            <a href="404.php">
-                <div class="bloc-formation">
+                </a>
+            </div>
+            
+            <div class="bloc-formation">
+                <a href="404.php">
                     <p class="texte-bloc-formation">Auditeurs libres</p>
-                </div>
-            </a>
-            <a href="404.php">
-                <div class="bloc-formation">
+                </a>
+            </div>
+            
+            <div class="bloc-formation">
+                <a href="404.php">
                     <p class="texte-bloc-formation">Nos Formations continues</p>
-                </div>
-            </a>
-            <a href="404.php">
-                <div class="bloc-formation">
+                </a>
+            </div>
+            <div class="bloc-formation">
+                <a href="404.php">
                     <p class="texte-bloc-formation">Nos Formations à distance</p>
-                </div>
-            </a>
-            <a href="404.php">
-                <div class="bloc-formation">
+                </a>
+            </div>
+            <div class="bloc-formation">
+                <a href="404.php">
                     <p class="texte-bloc-formation">Nos Formations courtes en formation continue</p>
-                </div>
-            </a>
-            <a href="404.php">
-                <div class="bloc-formation">
-                    <p class="texte-bloc-formation">Formation DAEU (non bacheliers)</p></div>
-            </a>
+                </a>
+            </div>
+            <div class="bloc-formation">
+                <a href="404.php">
+                    <p class="texte-bloc-formation">Formation DAEU (non bacheliers)</p>
+                </a>
+            </div>
         </div>
     </main>
 <?php include('footer.php'); ?>

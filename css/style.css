@@ -32,6 +32,10 @@ a {
     color: #3c2e60 !important;
     position: relative;
 }
+ul.nav-bar li a {
+    text-transform: uppercase;
+    display:block;
+}
 
 .boxed:not(.active) {
     background: #fff;
