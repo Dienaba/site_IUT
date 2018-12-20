@@ -161,7 +161,20 @@ ul.nav-bar > li > a:hover {
 .carrousel-item {
     overflow: hidden!important;
 }
+/** Error 404 **/
 
+.error404 {
+    font-size: 8rem;
+    color: #3c2e60;
+}
+
+.page404 {
+    padding:2rem;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
 /** BLOC CONNEXION **/
 
 body.index .bloc-connexion {
@@ -198,6 +211,11 @@ body.index div.bloc-connexion form {
 body.index div.bloc-connexion form label {
     margin-bottom: 0px !important;
     margin-top: 10px !important;
+}
+
+.bloc-connexion a {
+    color:white!important;
+    text-decoration: underline!important;
 }
 /** LOADER **/
 .loader {

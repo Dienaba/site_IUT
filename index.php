@@ -39,8 +39,7 @@
                     <label for="login">Adresse e-mail</label>
                         <input class="form-control" type="text" name="login">
                     <label for="password">Mot de passe</label>
-                        <input class="form-control" type="password" name="password">
-                        
+                        <input class="form-control" type="password" name="password">   
                     <?php } ?>
                 <?php 
                     if (isset($_COOKIE['login'])) { ?>
@@ -49,47 +48,48 @@
                     </form>
                 <?php }else{ ?>
                     <button class="btn btn-lg btn-block" type="submit">Se connecter</button>
+                     <a href="404.php">Mot de passe oublié ?</a><a href="creationCompte.php">Créer un compte</a>
                 <?php } ?>
             </form>
         </div>
         </div>
         <div class="container-des-blocs">
-            <a href="#">
+            <a href="404.php">
                 <div class="bloc-formation">
                     <p>Nos Formations</p>
                 </div>
             </a>
-            <a href="#">
+            <a href="404.php">
                 <div class="bloc-formation">
                     <p>Licences</p>
                 </div>
             </a>
-            <a href="#">
+            <a href="404.php">
                 <div class="bloc-formation">
                     <p>Nos Formations en alternance / en apprentissage</p>
                 </div>
             </a>
-            <a href="#">
+            <a href="404.php">
                 <div class="bloc-formation">
                     <p>Auditeurs libres</p>
                 </div>
             </a>
-            <a href="#">
+            <a href="404.php">
                 <div class="bloc-formation">
                     <p>Nos Formations continues</p>
                 </div>
             </a>
-            <a href="#">
+            <a href="404.php">
                 <div class="bloc-formation">
                     <p>Nos Formations à distance</p>
                 </div>
             </a>
-            <a href="#">
+            <a href="404.php">
                 <div class="bloc-formation">
                     <p>Nos Formations courtes en formation continue</p>
                 </div>
             </a>
-            <a href="#">
+            <a href="404.php">
                 <div class="bloc-formation">
                     <p>Formation DAEU (non bacheliers)</p></div>
             </a>
