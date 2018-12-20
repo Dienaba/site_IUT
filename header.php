@@ -46,6 +46,12 @@ require_once('connexion.php');
                             </a>
                         </div>
                     </div>
+                    <div class="barre-de-recherche">
+                        <form class="barre-de-recherche" action="search.php" method="get">
+                            <input class="champ-de-recherche" type="search" name="terme">
+                            <input class="bouton-rechercher" type="submit" name="s" value="Rechercher">
+                        </form>
+                    </div>
                     <div class="container-nav-bar">
                         <ul class="nav-bar">
                             <li><a href="index.php">Accueil</a></li>

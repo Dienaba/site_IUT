@@ -91,7 +91,7 @@ input, textarea {
 }
 div.container-logo {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 div.container-banner {
     display:flex;
@@ -183,6 +183,10 @@ body.index .bloc-connexion {
     color:white;
     border-radius:5px;
 }
+body.index .bloc-connexion p.message-de-bienvenue {
+    font-size:18px;
+    padding:5px;
+}
 body.index .bloc-connexion input {
     border-bottom: 1px solid #bbcc27!important;
     margin: 10px 0px!important;
@@ -271,7 +275,9 @@ div.container-des-blocs a div.bloc-formation {
     border: 2px solid #3c2e60;
     padding:5px;
     border-radius:5px;
-    height:80%;
+    height:65%;
+    display:flex;
+    justify-content:space-around;
 }
 /**
 div.container-des-blocs div.bloc-formation a {
@@ -284,6 +290,9 @@ div.container-des-blocs a div.bloc-formation:hover {
 div.container-des-blocs a div.bloc-formation:hover {
     color:#fff !important;
     -webkit-transition: all 0.30s ease-in-out;
+}
+div.bloc-formation p.texte-bloc-formation {
+
 }
 /** ATTENTION, .col fait parti de Boostrap, on est pas sensé y toucher, modifier le ciblage
 .col {
@@ -439,8 +448,44 @@ body.partenaires .text {
   font-size: 16px;
 }
 
-/************************ BLOC PAGE D'ACCUEIL ************************************/
+/*********** Style barre de recherche **********/
 
-div.bloc-formation p {
-    margin:12px;
+div.barre-de-recherche {
+    margin-top:auto;
+    width:33%;
+}
+form.barre-de-recherche input.champ-de-recherche {
+    background-color: #ffffff;   /* Couleur de fond */
+    border-style: solid;   /* Style de la bordure  */
+    border-width: 1px;   /* Epaisseur de la bordure  */
+    border-color: #dddddd;   /* Couleur de la bordure  */
+    padding: 5px 10px 5px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+    width: 98.5%;   /* Permet d'ajuster la largeur du champ de saisie à 100% */
+    box-sizing: border-box;   /* Important */
+    font-size: 14px;   /* Taille de la police du texte */
+    font-weight: normal;   /* Graisse du texte : normal = normal ; bold = gras */
+    letter-spacing: 1px;   /* Espacement des caractères */
+    font-weight: 700;
+}
+form.barre-de-recherche input.bouton-rechercher {
+    background-color: #3c2e60;   /* Couleur de fond */
+    border-style: solid;   /* Style de la bordure  */
+    border-width: 2px;   /* Epaisseur de la bordure  */
+    border-color: #3c2e60;   /* Couleur de la bordure  */
+    padding: 5px 10px 5px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+    width: 98.5%;   /* Permet d'ajuster la largeur du bouton à 100% */
+    box-sizing: border-box;   /* Important */
+    font-size: 13px;   /* Taille de la police du texte */
+    font-weight: normal;   /* Graisse du texte : normal = normal ; bold = gras */
+    letter-spacing: 2px;   /* Espacement des caractères */
+    margin: 10px 0 0 0;   /* Espace autour du bouton : haut droite bas gauche  */
+    text-transform: uppercase;   /* Transforme le texte en majuscules */
+    color: #ffffff;   /* Couleur du texte */
+}
+form.barre-de-recherche input.bouton-rechercher:hover {
+    background-color: #fff;
+    border-color: #bbcc27;
+    color: #3c2e60;
+    -webkit-transition: all ease-in-out 0.3s;
+    cursor: pointer;
 }
