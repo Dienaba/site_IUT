@@ -37,55 +37,57 @@
                     <label for="login">Adresse e-mail</label>
                     <input class="form-control" type="text" name="login">
                     <label for="password">Mot de passe</label>
-                    <input class="form-control" type="password" name="password">
-            <?php } ?>
-            <?php if (isset($_COOKIE['login'])) { ?>
-                <form action="deconnexion.php">
-                    <button class="btn btn-lg btn-block" type="submit">Deconnexion</button>
-                </form>
-            <?php }else{ ?>
-                <button class="btn btn-lg btn-block" type="submit">Se connecter</button>
-            <?php } ?>
-                </form>
-            </div>
+                        <input class="form-control" type="password" name="password">   
+                    <?php } ?>
+                <?php 
+                    if (isset($_COOKIE['login'])) { ?>
+                    <form action="deconnexion.php">
+                        <button class="btn btn-lg btn-block" type="submit">Deconnexion</button>
+                    </form>
+                <?php }else{ ?>
+                    <button class="btn btn-lg btn-block" type="submit">Se connecter</button>
+                     <a href="404.php">Mot de passe oublié ?</a><a href="creationCompte.php">Créer un compte</a>
+                <?php } ?>
+            </form>
+        </div>
         </div>
         <div class="container-des-blocs">
-            <a href="#">
+            <a href="404.php">
                 <div class="bloc-formation">
                     <p class="texte-bloc-formation">Nos Formations</p>
                 </div>
             </a>
-            <a href="#">
+            <a href="404.php">
                 <div class="bloc-formation">
                     <p class="texte-bloc-formation">Licences</p>
                 </div>
             </a>
-            <a href="#">
+            <a href="404.php">
                 <div class="bloc-formation">
                     <p class="texte-bloc-formation">Nos Formations en alternance / en apprentissage</p>
                 </div>
             </a>
-            <a href="#">
+            <a href="404.php">
                 <div class="bloc-formation">
                     <p class="texte-bloc-formation">Auditeurs libres</p>
                 </div>
             </a>
-            <a href="#">
+            <a href="404.php">
                 <div class="bloc-formation">
                     <p class="texte-bloc-formation">Nos Formations continues</p>
                 </div>
             </a>
-            <a href="#">
+            <a href="404.php">
                 <div class="bloc-formation">
                     <p class="texte-bloc-formation">Nos Formations à distance</p>
                 </div>
             </a>
-            <a href="#">
+            <a href="404.php">
                 <div class="bloc-formation">
                     <p class="texte-bloc-formation">Nos Formations courtes en formation continue</p>
                 </div>
             </a>
-            <a href="#">
+            <a href="404.php">
                 <div class="bloc-formation">
                     <p class="texte-bloc-formation">Formation DAEU (non bacheliers)</p></div>
             </a>
