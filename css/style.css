@@ -32,6 +32,9 @@ a {
     color: #3c2e60 !important;
     position: relative;
 }
+a:hover {
+    color: #bbcc27:
+}
 ul.nav-bar li a {
     text-transform: uppercase;
     display:block;
