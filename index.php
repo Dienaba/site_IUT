@@ -57,6 +57,22 @@
                     </form>
                 </div>
             </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="temoignage-du-mois">
+                    <div class="title">
+                        <div class="bloc_img">
+                            <a href="#" class="img-actu">
+                                <img src="image/diapo3.jpg" alt="Témoignage du mois">
+                            </a>
+                            <span class="titre-temoignage-front">Témoignage du mois</span>
+                        </div>
+                        
+                    </div>
+                    <div class="bloc_contenu">
+                        <p>blablabla</p>
+                    </div>
+                </div>
+            </div>
             <!-- 
             <div class="container-des-blocs">
                 <div class="bloc-formation">

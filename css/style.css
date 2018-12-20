@@ -497,3 +497,27 @@ form.barre-de-recherche input.bouton-rechercher:hover {
     -webkit-transition: all ease-in-out 0.3s;
     cursor: pointer;
 }
+
+/****** Temoignage front page d'accueil *************/
+
+div.temoignage-du-mois {
+    margin-top:25px;
+    border: 1px solid #3c2e60;
+}
+div.temoignage-du-mois span.titre-temoignage-front {
+    position:absolute;
+    top:0;
+    left:15px;
+    display:block;
+    height:61px;
+    color: #fff;
+    line-height:61px;
+    padding-left: 70px;
+    padding-right: 15px;
+    font-size:16px;
+    font-weight:700;
+}
+div.temoignage-du-mois span.titre-temoignage-front {
+    background: #3c2e60 url('/image/picto/picto_temoignage.png') 0 0 no-repeat;
+    color:white;
+}
