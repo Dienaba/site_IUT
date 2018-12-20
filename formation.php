@@ -6,42 +6,30 @@
     </div>
 
     <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Vestibulum mollis, ligula a vehicula dictum, odio nulla efficitur eros, at consequat libero ante quis turpis. 
-        Vestibulum et sollicitudin nunc, vitae placerat nisl. 
-        Maecenas eget risus mollis, fringilla est sed, tempus velit. 
-        Vivamus auctor sem et erat pulvinar egestas. In vitae venenatis dolor. 
-        Duis elementum nunc est, nec rutrum quam laoreet a. 
-        Quisque sed tortor maximus, volutpat purus at, iaculis lacus. 
-        Mauris laoreet dapibus ligula eget dictum.<br><br>
+        <p>L'enseignement de l'informatique à l'IUT fait une large part à la dimension professionnelle tout en conservant des composantes fondamentales; 
+            l'étudiant acquiert ainsi des savoir-faires mais également des connaissances, 
+            des concepts de base et des méthodes de travail qu'il sera à même de mettre à profit en situation professionnelle.<br><br>
 
-        Nam et urna metus. 
-        Donec diam justo, tincidunt quis odio gravida, dapibus accumsan nulla. 
-        Nunc ante risus, pharetra a consequat vitae, congue ac enim. 
-        Vestibulum fermentum nec diam at laoreet. 
-        Duis sed ullamcorper ex. Integer sit amet nunc augue. 
-        Aliquam vehicula quis enim a malesuada. Nunc et cursus tellus, et pretium turpis. 
-        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent a iaculis felis, at viverra elit. 
-        Etiam imperdiet velit imperdiet orci pulvinar tincidunt. 
-        Integer at bibendum ante, id accumsan neque. 
-        Duis arcu nisl, fringilla in odio sit amet, suscipit aliquet ex.<br><br>
+            <strong>Le DUT, diplôme universitaire et professionnel (niveau L2 du schéma LMD, 120 crédits européens) :</strong><br>
 
-        Proin justo est, faucibus et tempor id, imperdiet eget tortor. 
-        In cursus euismod diam. 
-        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis sollicitudin elit eget fringilla convallis. 
-        Phasellus nec neque eros. 
-        Phasellus ac mauris mattis, euismod felis ut, facilisis est. 
-        Quisque quis justo rutrum, malesuada est a, commodo ligula.<br><br>
+            Les titulaires du DUT en informatique sont des techniciens supérieurs, capables de participer à la conception, 
+            la réalisation et la mise en oeuvre de systèmes informatiques. 
+            Ils peuvent cependant s'ils le désirent poursuivre leurs études à l'issue de ce diplôme.<br><br>
 
-        Vivamus venenatis mattis nunc, blandit finibus lorem facilisis sed. 
-        Vestibulum tincidunt semper ligula, at semper nisi finibus ac. 
-        Ut id felis ac sem dignissim molestie eget vel mi. 
-        Pellentesque pretium nisl viverra dolor hendrerit scelerisque. 
-        Cras eget lobortis ante. 
-        Curabitur sodales, nibh vel molestie ultrices, ante massa mattis arcu, vitae ultricies mauris lectus sed ante. 
-        Sed condimentum libero ac risus mollis, non ullamcorper elit scelerisque.</p>
+            <strong>La Licence Professionnelle «Systèmes Informatiques et Logiciels» (SIL), 
+            diplôme de niveau L3 dans le schéma LMD (grade de Licence, 180 crédits européens): 
+            <a href="http://www.iut-informatique.fr/LicencesProfessionnelles/">ces pages présentent les licences professionnelles proposées dans les départements informatiques d'IUT.</a></strong><br><br>
 
-        <div>Télécharger le PPN au format pdf <a href="/download/ppn_fr.pdf">ICI</a></div>
+            Les titulaires de la licence SIL sont des spécialistes capables de participer à un projet de développement logiciel
+            et, à terme, d'en prendre la complète responsabilité.<br><br>
+
+            La validation des acquis :<br><br>
+
+            Il est également possible de faire reconnaître son expérience (professionnelle ou non) afin d'obtenir un diplôme, 
+            un titre ou un certificat de qualification professionnelle. 
+            Vous pouvez visiter le site du gouvernement concernant validation des acquis de l'expérience (VAE).</p>
+
+        <div>Télécharger le PPN au format pdf <a href="/download/ppn_fr.pdf" download>ICI</a></div>
     </div>
 </main>
 
