@@ -1,4 +1,6 @@
-<?php include('header.php'); ?>
+<?php include('header.php'); 
+require_once('connexion.php');
+?>
 
 <main class="container">
     <div class="bandeau">
@@ -29,7 +31,11 @@
       <label for="inputState">Région</label>
       <select id="inputState" class="form-control">
         <option selected>Choisissez</option>
-        <option>...</option>
+        <?php
+            $sql = mysqli_query($conn, 'Select * from departement');
+          while($donnees = mysqli_fetch_assoc($sql)) {
+              echo '<option value="'.$donnees['nom'].'">'.$donnees['numero'].' - '.$donnees['nom'].'</option>';
+          } ?>
       </select>
     </div>
     <div class="form-group col-md-2">
