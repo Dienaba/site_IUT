@@ -1,7 +1,7 @@
 <?php include('header.php'); 
 ?>
     <main>
-        <div class="container">
+        <div class="container col-xs-12 col-sm-6 col-md-8">
             <!-- Pour modifier les carousel mettre le modif du width ici -->
             <div class="container-banner">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -30,7 +30,7 @@
                         <span class="sr-only">Suivant</span>
                     </a>
                 </div>
-                <div class="bloc-connexion col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-3">
+                <div class="bloc-connexion col-xs-12 col-sm-6 col-md-4">
                 <?php if (isset($_COOKIE['login'])) { ?>
                     <p class="message-de-bienvenue">Bienvenue <?php echo $_COOKIE['login'] ?> !</p>
                     <ul class="menu-bloc-connexion">
