@@ -251,6 +251,8 @@ div.container-des-blocs a div.bloc-formation {
     padding:5px;
     border-radius:5px;
     height:80%;
+    display:flex;
+    justify-content:space-around;
 }
 /**
 div.container-des-blocs div.bloc-formation a {
@@ -263,6 +265,9 @@ div.container-des-blocs a div.bloc-formation:hover {
 div.container-des-blocs a div.bloc-formation:hover {
     color:#fff !important;
     -webkit-transition: all 0.30s ease-in-out;
+}
+div.bloc-formation p.texte-bloc-formation {
+
 }
 /** ATTENTION, .col fait parti de Boostrap, on est pas sensé y toucher, modifier le ciblage
 .col {
@@ -416,10 +421,4 @@ body.partenaires .containerPartenaire:hover .hover {
 body.partenaires .text {
   color:black;
   font-size: 16px;
-}
-
-/************************ BLOC PAGE D'ACCUEIL ************************************/
-
-div.bloc-formation p {
-    margin:12px;
 }

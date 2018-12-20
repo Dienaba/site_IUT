@@ -56,42 +56,42 @@
         <div class="container-des-blocs">
             <a href="#">
                 <div class="bloc-formation">
-                    <p>Nos Formations</p>
+                    <p class="texte-bloc-formation">Nos Formations</p>
                 </div>
             </a>
             <a href="#">
                 <div class="bloc-formation">
-                    <p>Licences</p>
+                    <p class="texte-bloc-formation">Licences</p>
                 </div>
             </a>
             <a href="#">
                 <div class="bloc-formation">
-                    <p>Nos Formations en alternance / en apprentissage</p>
+                    <p class="texte-bloc-formation">Nos Formations en alternance / en apprentissage</p>
                 </div>
             </a>
             <a href="#">
                 <div class="bloc-formation">
-                    <p>Auditeurs libres</p>
+                    <p class="texte-bloc-formation">Auditeurs libres</p>
                 </div>
             </a>
             <a href="#">
                 <div class="bloc-formation">
-                    <p>Nos Formations continues</p>
+                    <p class="texte-bloc-formation">Nos Formations continues</p>
                 </div>
             </a>
             <a href="#">
                 <div class="bloc-formation">
-                    <p>Nos Formations à distance</p>
+                    <p class="texte-bloc-formation">Nos Formations à distance</p>
                 </div>
             </a>
             <a href="#">
                 <div class="bloc-formation">
-                    <p>Nos Formations courtes en formation continue</p>
+                    <p class="texte-bloc-formation">Nos Formations courtes en formation continue</p>
                 </div>
             </a>
             <a href="#">
                 <div class="bloc-formation">
-                    <p>Formation DAEU (non bacheliers)</p></div>
+                    <p class="texte-bloc-formation">Formation DAEU (non bacheliers)</p></div>
             </a>
         </div>
     </main>
