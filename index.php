@@ -68,7 +68,7 @@
                         </div>
                         
                     </div>
-                    <div class="bloc_contenu">
+                    <div class="contenu-temoignage">
                         <p>blablabla</p>
                     </div>
                 </div>
