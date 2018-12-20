@@ -458,7 +458,7 @@ form.barre-de-recherche input.champ-de-recherche {
     background-color: #ffffff;   /* Couleur de fond */
     border-style: solid;   /* Style de la bordure  */
     border-width: 1px;   /* Epaisseur de la bordure  */
-    border-color: #3c2e60;   /* Couleur de la bordure  */
+    border-color:#3c2e60;   /* Couleur de la bordure  */
     padding: 5px 10px 5px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
     width: 98.5%;   /* Permet d'ajuster la largeur du champ de saisie à 100% */
     box-sizing: border-box;   /* Important */
