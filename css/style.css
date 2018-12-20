@@ -432,8 +432,9 @@ body.partenaires .text {
 
 /*********** Style barre de recherche **********/
 
-form.barre-de-recherche {
-    padding:35px;
+div.barre-de-recherche {
+    margin-top:auto;
+    width:33%;
 }
 form.barre-de-recherche input.champ-de-recherche {
     background-color: #ffffff;   /* Couleur de fond */
@@ -449,18 +450,23 @@ form.barre-de-recherche input.champ-de-recherche {
     letter-spacing: 1px;   /* Espacement des caractères */
 }
 form.barre-de-recherche input.bouton-rechercher {
-    background-color: #E8B960;   /* Couleur de fond */
+    background-color: #3c2e60;   /* Couleur de fond */
     border-style: solid;   /* Style de la bordure  */
     border-width: 1px;   /* Epaisseur de la bordure  */
-    border-color: #E8B960;   /* Couleur de la bordure  */
+    border-color: #3c2e60;   /* Couleur de la bordure  */
     padding: 5px 10px 5px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
     width: 98.5%;   /* Permet d'ajuster la largeur du bouton à 100% */
     box-sizing: border-box;   /* Important */
-    font-family: PT sans;   /* Police du texte */
     font-size: 13px;   /* Taille de la police du texte */
     font-weight: normal;   /* Graisse du texte : normal = normal ; bold = gras */
     letter-spacing: 2px;   /* Espacement des caractères */
     margin: 10px 0 0 0;   /* Espace autour du bouton : haut droite bas gauche  */
     text-transform: uppercase;   /* Transforme le texte en majuscules */
     color: #ffffff;   /* Couleur du texte */
+}
+form.barre-de-recherche input.bouton-rechercher:hover {
+    background-color: #bbcc27;
+    border-color: #bbcc27;
+    -webkit-transition: all ease-in-out 0.3s;
+    cursor: pointer;
 }
