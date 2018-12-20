@@ -269,6 +269,7 @@ div.container-des-blocs {
     margin-bottom:2%;
     display:flex;
     justify-content: space-around;
+    background-color: #bbcc27;
 }
 div.container-des-blocs a {
     width:33%;
