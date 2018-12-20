@@ -1,6 +1,7 @@
 <?php
     try {
-        $bdd = new PDO("mysql:host=localhost;dbname=barrederecherche", "root", "root");
+        // $bdd = mysqli_connect("localhost", "root", "root", "iut-informatique");
+        $bdd = new PDO("mysql:host=localhost;dbname=iut-informatique", "root", "root");
         $bdd ->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     }
 
