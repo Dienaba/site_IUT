@@ -57,7 +57,7 @@
                     </form>
                 </div>
             </div>
-            <div class="bloc-droite col-xs-12 col-sm-6 col-md-4">
+            <div class="bloc-droite col-xs-12 col-sm-6 col-md-8">
                 <div class="temoignage-du-mois">
                     <div class="title">
                         <div class="bloc_img">
@@ -78,7 +78,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-8">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="temoignage-du-mois">
                     <div class="title">
                         <div class="bloc_img">
