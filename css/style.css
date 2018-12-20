@@ -270,6 +270,7 @@ div.container-des-blocs {
     display:flex;
     justify-content: space-around;
     background-color: #bbcc27;
+    padding: 0% 2%;
 }
 div.container-des-blocs a {
     width:33%;
