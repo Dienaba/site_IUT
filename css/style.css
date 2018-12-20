@@ -33,7 +33,8 @@ a {
     position: relative;
 }
 a:hover {
-    color: #bbcc27:
+    color: #bbcc27 !important;
+    -webkit-transform: all ease-in-out 0.3s;
 }
 ul.nav-bar li a {
     text-transform: uppercase;
