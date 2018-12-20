@@ -46,6 +46,10 @@ require_once('connexion.php');
                             </a>
                         </div>
                     </div>
+                    <form action = "verif-form.php" method = "get">
+                        <input type = "search" name = "terme">
+                        <input type = "submit" name = "s" value = "Rechercher">
+                    </form>
                     <div class="container-nav-bar">
                         <ul class="nav-bar">
                             <li><a href="index.php">Accueil</a></li>
