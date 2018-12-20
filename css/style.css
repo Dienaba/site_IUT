@@ -273,7 +273,7 @@ div.container-des-blocs {
 div.container-des-blocs a {
     width:33%;
 }
-div.container-des-blocs a div.bloc-formation {
+div.container-des-blocs div.bloc-formation a {
     text-align:center;
     margin:10px;
     border: 2px solid #3c2e60;
@@ -286,12 +286,12 @@ div.container-des-blocs a div.bloc-formation {
 /**
 div.container-des-blocs div.bloc-formation a {
 }**/
-div.container-des-blocs a div.bloc-formation:hover {
+div.container-des-blocs div.bloc-formation a:hover {
     background-color: #3c2e60;
     transition-duration: 0.5s;
     -webkit-transition: all 0.30s ease-in-out;
 }
-div.container-des-blocs a div.bloc-formation:hover {
+div.container-des-blocs div.bloc-formation a:hover {
     color:#fff !important;
     -webkit-transition: all 0.30s ease-in-out;
 }
