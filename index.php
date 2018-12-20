@@ -57,8 +57,7 @@
                     </form>
                 </div>
             </div>
-        </div>
-        <div class="container-des-blocs">
+            <div class="container-des-blocs">
                 <div class="bloc-formation">
                     <a href="404.php">
                         <p class="texte-bloc-formation">Nos Formations</p>
@@ -102,5 +101,6 @@
                     </a>
                 </div>
             </div>
+        </div>
     </main>
 <?php include('footer.php'); ?>
