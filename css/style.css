@@ -158,6 +158,9 @@ ul.nav-bar > li > a:hover {
     transition-duration: 0.5s;
 }
 
+.carrousel-item {
+    overflow: hidden!important;
+}
 
 /** BLOC CONNEXION **/
 
