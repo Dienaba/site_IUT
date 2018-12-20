@@ -65,7 +65,7 @@
                                 <a href="#" class="img-actu">
                                     <img src="image/diapo3.jpg" alt="Témoignage du mois">
                                 </a>
-                                <span class="titre-temoignage-front">Témoignage du mois</span>
+                                <span class="titre-temoignage-front">Article du mois</span>
                             </div>
                             
                         </div>
