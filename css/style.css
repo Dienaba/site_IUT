@@ -529,6 +529,9 @@ div.bloc-droite {
     float:right;
     margin-bottom: 20px;
 }
+div.bloc-droite span.titre-temoignage-front {
+    top:25px;
+}
 div.bloc-sous-slider {
     overflow:hidden;
 }
