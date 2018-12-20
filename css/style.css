@@ -28,9 +28,7 @@ img {
 
 a {
     text-decoration: none !important;
-    text-transform: uppercase;
     cursor: pointer;
-    display: block;
     color: #3c2e60 !important;
     position: relative;
 }
