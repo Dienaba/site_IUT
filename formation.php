@@ -40,6 +40,8 @@
         Cras eget lobortis ante. 
         Curabitur sodales, nibh vel molestie ultrices, ante massa mattis arcu, vitae ultricies mauris lectus sed ante. 
         Sed condimentum libero ac risus mollis, non ullamcorper elit scelerisque.</p>
+
+        <div>Télécharger le PPN au format pdf <a href="/download/ppn_fr.pdf">ICI</a></div>
     </div>
 </main>
 
