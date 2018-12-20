@@ -186,6 +186,7 @@ body.index .bloc-connexion {
 body.index .bloc-connexion p.message-de-bienvenue {
     font-size:18px;
     padding:5px;
+    margin-top:16px;
 }
 body.index .bloc-connexion input {
     border-bottom: 1px solid #bbcc27!important;
