@@ -181,7 +181,7 @@ body.index .bloc-connexion {
     /** border: 3px solid #3c2e60; **/
     background-color: #3c2e60;
     color:white;
-    border-radius:5px;
+    border-radius:10px;
 }
 body.index .bloc-connexion p.message-de-bienvenue {
     font-size:18px;
