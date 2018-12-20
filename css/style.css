@@ -467,6 +467,7 @@ form.barre-de-recherche input.champ-de-recherche {
     font-weight: normal;   /* Graisse du texte : normal = normal ; bold = gras */
     letter-spacing: 1px;   /* Espacement des caractères */
     font-weight: 700;
+    border-radius:10px;
 }
 form.barre-de-recherche input.bouton-rechercher {
     background-color: #3c2e60;   /* Couleur de fond */
@@ -482,6 +483,7 @@ form.barre-de-recherche input.bouton-rechercher {
     margin: 10px 0 0 0;   /* Espace autour du bouton : haut droite bas gauche  */
     text-transform: uppercase;   /* Transforme le texte en majuscules */
     color: #ffffff;   /* Couleur du texte */
+    border-radius:10px;
 }
 form.barre-de-recherche input.bouton-rechercher:hover {
     background-color: #fff;
