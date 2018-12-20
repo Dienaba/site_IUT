@@ -507,7 +507,7 @@ div.temoignage-du-mois {
 }
 div.temoignage-du-mois span.titre-temoignage-front {
     position:absolute;
-    top:15px;
+    top:0px;
     left:15px;
     display:block;
     height:61px;
@@ -526,5 +526,9 @@ div.contenu-temoignage {
     padding:10px;
 }
 div.bloc-droite {
-    float:right
+    float:right;
+    margin-bottom: 20px;
+}
+div.bloc-sous-slider {
+    overflow:hidden;
 }
