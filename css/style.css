@@ -170,6 +170,10 @@ body.index .bloc-connexion {
     color:white;
     border-radius:5px;
 }
+body.index .bloc-connexion p.message-de-bienvenue {
+    font-size:17px;
+    padding:5px;
+}
 body.index .bloc-connexion input {
     border-bottom: 1px solid #bbcc27!important;
     margin: 10px 0px!important;
