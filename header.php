@@ -47,7 +47,7 @@ require_once('connexion.php');
                         </div>
                     </div>
                     <div class="barre-de-recherche">
-                        <form class="barre-de-recherche" action="verif-form.php" method="get">
+                        <form class="barre-de-recherche" action="search.php" method="get">
                             <input class="champ-de-recherche" type="search" name="terme">
                             <input class="bouton-rechercher" type="submit" name="s" value="Rechercher">
                         </form>
