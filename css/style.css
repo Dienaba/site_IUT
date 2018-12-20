@@ -490,7 +490,7 @@ form.barre-de-recherche input.bouton-rechercher {
 }
 form.barre-de-recherche input.bouton-rechercher:hover {
     background-color: #fff;
-    border-color: #bbcc27;
+    border-color: #3c2e60;
     color: #3c2e60;
     -webkit-transition: all ease-in-out 0.3s;
     cursor: pointer;
