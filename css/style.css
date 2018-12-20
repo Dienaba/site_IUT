@@ -141,6 +141,7 @@ ul.nav-bar {
     justify-content: space-around;
     font-weight: 600;
     padding-left:0px !important;
+    width:max-content;
 }
 ul.nav-bar > li > a {
     border: 2px solid #bbcc27;
