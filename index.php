@@ -57,6 +57,7 @@
                     </form>
                 </div>
             </div>
+            <!-- 
             <div class="container-des-blocs">
                 <div class="bloc-formation">
                     <a href="404.php">
@@ -99,7 +100,7 @@
                         <p class="texte-bloc-formation">Formation DAEU (non bacheliers)</p>
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </main>
 <?php include('footer.php'); ?>
