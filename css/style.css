@@ -39,6 +39,7 @@ a:hover {
 ul.nav-bar li a {
     text-transform: uppercase;
     display:block;
+    color: #3c2e60 !important;
 }
 
 .boxed:not(.active) {
