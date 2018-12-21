@@ -100,17 +100,53 @@
                             
                         </div>
                         <ul class="liste-offres-demploi">
-                            <li>Offre n°1</li>
+                            <li>
+                                <h6>Titre offre</h6>
+                                <p>contenu Offre n°1<br>
+                                Donec lorem nisl, euismod et mattis ac, convallis ut nunc. 
+                                Duis dignissim dictum mauris. Nulla facilisi. 
+                                In ultrices blandit facilisis</p>
+                            </li>
                             <hr>
-                            <li>Offre n°2</li>
+                            <li>
+                                <h6>Titre offre</h6>
+                                <p>contenu Offre n°2<br>
+                                Donec lorem nisl, euismod et mattis ac, convallis ut nunc. 
+                                Duis dignissim dictum mauris. Nulla facilisi. 
+                                In ultrices blandit facilisis</p>
+                            </li>
                             <hr>
-                            <li>Offre n°3</li>
+                            <li>
+                                <h6>Titre offre</h6>
+                                <p>contenu Offre n°3<br>
+                                Donec lorem nisl, euismod et mattis ac, convallis ut nunc. 
+                                Duis dignissim dictum mauris. Nulla facilisi. 
+                                In ultrices blandit facilisis</p>
+                            </li>
                             <hr>
-                            <li>Offre n°4</li>
+                            <li>
+                                <h6>Titre offre</h6>
+                                <p>contenu Offre n°4<br>
+                                Donec lorem nisl, euismod et mattis ac, convallis ut nunc. 
+                                Duis dignissim dictum mauris. Nulla facilisi. 
+                                In ultrices blandit facilisis</p>
+                            </li>
                             <hr>
-                            <li>Offre n°5</li>
+                            <li>
+                                <h6>Titre offre</h6>
+                                <p>contenu Offre n°5<br>
+                                Donec lorem nisl, euismod et mattis ac, convallis ut nunc. 
+                                Duis dignissim dictum mauris. Nulla facilisi. 
+                                In ultrices blandit facilisis</p>
+                            </li>
                             <hr>
-                            <li>Offre n°6</li>
+                            <li>
+                                <h6>Titre offre</h6>
+                                <p>contenu Offre n°6<br>
+                                Donec lorem nisl, euismod et mattis ac, convallis ut nunc. 
+                                Duis dignissim dictum mauris. Nulla facilisi. 
+                                In ultrices blandit facilisis</p>
+                            </li>
                         <ul>
                         <div class="show-more">Voir d'autres offres</div>
                     </div>
