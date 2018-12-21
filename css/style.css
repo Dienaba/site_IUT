@@ -546,3 +546,7 @@ div.bloc-droite span.titre-temoignage-front {
 div.bloc-sous-slider {
     overflow:hidden;
 }
+
+div.i4ewOd-pzNkMb-haAclf { /*** MASQUER LE BANDEAU EN HAUT DU IFRAME DE LA CARTE ***/
+    display:none;
+}
