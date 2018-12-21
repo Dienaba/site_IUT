@@ -31,12 +31,12 @@
                     </a>
                 </div>
                 <div class="bloc-connexion col-xs-12 col-sm-6 col-md-4">
-                <?php if (isset($_COOKIE['login'])) { ?>
+                <?php if (isset($_COOKIE['login']) == 'admin' ) { ?>
                     <p class="message-de-bienvenue">Bienvenue <?php echo $_COOKIE['login'] ?> !</p>
                     <ul class="menu-bloc-connexion">
-                        <li class="modif-info">Modifier vos informations</li>
-                        <li class="temoignage">Déposer un témoignage</li>
-                        <li class="nous-contact">Nous contacter</li>
+                        <!-- <li class="modif-info">Modifier vos informations</li> -->
+                        <a  href="accueilAdmin.php" class="btn btn-lg btn-block green">Accéder à l'interface admin</a>
+                        <!-- <li class="nous-contact">Nous contacter</li> -->
                     </ul>
                 <?php }else{ ?>
                     <form class="form-group" action="authentification.php" method="post">
