@@ -4,7 +4,7 @@
         <div class="container col-xs-12 col-sm-6 col-md-8">
             <!-- Pour modifier les carousel mettre le modif du width ici -->
             <div class="container-banner">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide col-xs-12 col-sm-6 col-md-9" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -30,12 +30,13 @@
                         <span class="sr-only">Suivant</span>
                     </a>
                 </div>
-                <div class="bloc-connexion col-xs-12 col-sm-6 col-md-4">
+                <div class="bloc-connexion col-xs-12 col-sm-6 col-md-3">
                 <?php if (isset($_COOKIE['login'])) { ?>
                     <p class="message-de-bienvenue">Bienvenue <?php echo $_COOKIE['login'] ?> !</p>
                     <ul class="menu-bloc-connexion">
                         <li class="modif-info">Modifier vos informations</li>
                         <li class="temoignage">Déposer un témoignage</li>
+                        <li class="offre">Déposer une offre d'emploi</li>
                         <li class="nous-contact">Nous contacter</li>
                     </ul>
                 <?php }else{ ?>
