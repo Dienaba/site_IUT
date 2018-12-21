@@ -88,6 +88,7 @@
                                 Duis dignissim dictum mauris. Nulla facilisi. 
                                 In ultrices blandit facilisis.</p>
                         </div>
+                        <div class="show-more">Voir d'autres témoignages</div>
                     </div>
                 </div>
                 <div class="bloc-droite col-xs-12 col-sm-6 col-md-8">
@@ -132,6 +133,7 @@
                                 Duis dignissim dictum mauris. Nulla facilisi. 
                                 In ultrices blandit facilisis.</p>
                         </div>
+                        <div class="show-more">Voir d'autres articles</div>
                     </div>
                 </div>
             </div>
