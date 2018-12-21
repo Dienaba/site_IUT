@@ -90,6 +90,24 @@
                         </div>
                     </div>
                 </div>
+                <div class="bloc-droite col-xs-12 col-sm-6 col-md-8">
+                    <div class="offres-demploi">
+                        <div class="title">
+                            <div class="bloc_img">
+                                <span class="titre-offre-front">Offres d'emploi</span>
+                            </div>
+                            
+                        </div>
+                        <ul>
+                            <li>Offre n°1</li>
+                            <li>Offre n°2</li>
+                            <li>Offre n°3</li>
+                            <li>Offre n°4</li>
+                            <li>Offre n°5</li>
+                            <li>Offre n°6</li>
+                        <ul>
+                    </div>
+                </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="article-du-mois">
                         <div class="title">

@@ -513,13 +513,15 @@ form.barre-de-recherche input.bouton-rechercher:hover {
 
 div.temoignage-du-mois,
 div.article-du-mois,
-div.carte-des-iut {
+div.carte-des-iut,
+div.offres-demploi {
     margin-top:25px;
     border: 1px solid #bbcc27;
     border-radius:5px;
 }
 div.temoignage-du-mois span.titre-temoignage-front,
-div.article-du-mois span.titre-article-front {
+div.article-du-mois span.titre-article-front,
+div.offres-demploi span.titre-offre-front {
     position:absolute;
     top:0px;
     left:15px;
@@ -539,6 +541,9 @@ div.temoignage-du-mois span.titre-temoignage-front {
 div.article-du-mois span.titre-article-front {
     background: #bbcc27 url('../image/picto/picto_article.svg') 0 0 no-repeat;
 }
+div.offres-demploi span.titre-offre-front {
+    background: #bbcc27 url('../image/picto/picto_article.svg') 0 0 no-repeat;
+}
 div.contenu-temoignage,
 div.contenu-article {
     padding:10px;
@@ -547,7 +552,8 @@ div.bloc-droite {
     float:right;
     margin-bottom: 20px;
 }
-div.bloc-droite span.titre-temoignage-front, {
+div.bloc-droite span.titre-temoignage-front,
+div.bloc-droite span.titre-offre-front {
     top:25px;
 }
 div.bloc-sous-slider {
