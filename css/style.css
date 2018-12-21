@@ -519,8 +519,7 @@ div.carte-des-iut {
     border-radius:5px;
 }
 div.temoignage-du-mois span.titre-temoignage-front,
-div.article-du-mois span.titre-article-front,
-div.carte-des-iut span.titre-carte-iut {
+div.article-du-mois span.titre-article-front {
     position:absolute;
     top:0px;
     left:15px;
@@ -540,9 +539,6 @@ div.temoignage-du-mois span.titre-temoignage-front {
 div.article-du-mois span.titre-article-front {
     background: #bbcc27 url('../image/picto/picto_article.svg') 0 0 no-repeat;
 }
-div.carte-des-iut span.titre-carte-iut {
-    background: #bbcc27 url('../image/picto/picto_maps.svg') 0 0 no-repeat;
-}
 div.contenu-temoignage,
 div.contenu-article {
     padding:10px;
@@ -551,14 +547,9 @@ div.bloc-droite {
     float:right;
     margin-bottom: 20px;
 }
-div.bloc-droite span.titre-temoignage-front,
-div.bloc-droite span.titre-carte-iut {
+div.bloc-droite span.titre-temoignage-front, {
     top:25px;
 }
 div.bloc-sous-slider {
     overflow:hidden;
-}
-
-div.i4ewOd-pzNkMb-haAclf { /*** MASQUER LE BANDEAU EN HAUT DU IFRAME DE LA CARTE ***/
-    display:none;
 }
