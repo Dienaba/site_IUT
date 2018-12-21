@@ -88,7 +88,7 @@
                                 Duis dignissim dictum mauris. Nulla facilisi. 
                                 In ultrices blandit facilisis.</p>
                         </div>
-                        <div class="show-more">Voir d'autres témoignages</div>
+                        <div class="show-more">Voir plus de témoignages</div>
                     </div>
                 </div>
                 <div class="bloc-droite col-xs-12 col-sm-6 col-md-8">
@@ -148,7 +148,7 @@
                                 In ultrices blandit facilisis</p>
                             </li>
                         <ul>
-                        <div class="show-more">Voir d'autres offres</div>
+                        <div class="show-more">Voir plus d'offres</div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -170,7 +170,7 @@
                                 Duis dignissim dictum mauris. Nulla facilisi. 
                                 In ultrices blandit facilisis.</p>
                         </div>
-                        <div class="show-more">Voir d'autres articles</div>
+                        <div class="show-more">Voir plus d'articles</div>
                     </div>
                 </div>
             </div>
