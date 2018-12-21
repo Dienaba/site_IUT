@@ -7,7 +7,7 @@ require_once('connexion.php');
         <h1>Création de compte</h1>
     </div>
 
-    <form>
+    <form action="ajouterEtudiant.php" method="post">
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputEmail4">Adresse e-mail</label>
@@ -29,7 +29,7 @@ require_once('connexion.php');
     </div>
     <div class="form-group col-md-4">
       <label for="inputState">Région</label>
-      <select id="inputState" class="form-control">
+      <select name="region" id="inputState" class="form-control">
         <option selected>Choisissez</option>
         <?php
             $sql = mysqli_query($conn, 'Select * from departement');

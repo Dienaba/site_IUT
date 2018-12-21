@@ -57,7 +57,7 @@ require_once('connexion.php');
                             <!-- <li><a href="index.php">Accueil</a></li> -->
                             <li><a href="formation.php">Formation</a></li>
                             <li><a href="iut.php">Les IUT</a></li>
-                            <li><a href="offres.php">Les offres d'emploi</a></li>
+                            <li><a href="offres.php">Offres de stage et apprentissage</a></li>
                             <li><a href="partenaires.php">Partenaires</a></li>
                             <li><a href="temoignages.php">Témoignages</a></li>
                             <li><a href="contact.php">Contact</a></li>

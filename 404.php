@@ -124,6 +124,7 @@ INSERT INTO `departement` (`departementid`, `numero`, `nom`) VALUES
 (100, '972', 'Martinique'),
 (101, '974', 'Réunion');
 
-alter table adresses ADD departementFK int(11) NOT NULL DEFAULT 0
-ALTER TABLE adresses ADD CONSTRAINT departementFK FOREIGN KEY (departementFK) REFERENCES departement(departementid)
+alter table adresses ADD departementFK int(11) NOT NULL DEFAULT 0;
+ALTER TABLE adresses ADD CONSTRAINT departementFK FOREIGN KEY (departementFK) REFERENCES departement(departementid);
+alter table adresses add COLUMN nom_adresse varchar(200) DEFAULT NULL;
 -->
