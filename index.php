@@ -63,20 +63,9 @@
                     <div class="temoignage-du-mois">
                         <div class="title">
                             <div class="bloc_img">
-                                <a href="#" class="img-actu">
-                                    <img src="image/diapo3.jpg" alt="Témoignage du mois">
-                                </a>
+                                <iframe src="https://www.google.com/maps/d/embed?mid=1yO3_K4oLfqVhxlTOyqeVy62OjFG-pJOg" width="794.656" height="494"></iframe>
                                 <span class="titre-temoignage-front">Carte des IUT</span>
                             </div>
-                            
-                        </div>
-                        <div class="contenu-temoignage">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Aliquam nec dolor lorem. Pellentesque accumsan convallis ante et volutpat. 
-                                Praesent eu urna sapien. In efficitur feugiat sagittis. <br>
-                                Donec lorem nisl, euismod et mattis ac, convallis ut nunc. 
-                                Duis dignissim dictum mauris. Nulla facilisi. 
-                                In ultrices blandit facilisis.</p>
                         </div>
                     </div>
                 </div>
