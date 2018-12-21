@@ -33,7 +33,7 @@
                 <div class="bloc-connexion col-xs-12 col-sm-6 col-md-3">
                 <?php if (isset($_COOKIE['login'])) { ?>
                     <p class="message-de-bienvenue">Bienvenue <?php echo $_COOKIE['login'] ?> !</p>
-                    <a  href="accueilAdmin.php" class="btn btn-lg btn-block green">Accéder à l'interface admin</a>
+                    <a  href="accueilAdmin.php" class="interface-admin btn btn-lg btn-block green">Accéder à l'interface admin</a>
                     <!-- <ul class="menu-bloc-connexion">
                         <!-- <li class="modif-info">Modifier vos informations</li>
                         <li class="temoignage">Déposer un témoignage</li>
@@ -61,23 +61,11 @@
             </div>
             <div class="bloc-sous-slider">
                 <div class="bloc-droite col-xs-12 col-sm-6 col-md-8">
-                    <div class="temoignage-du-mois">
+                    <div class="carte-des-iut">
                         <div class="title">
                             <div class="bloc_img">
-                                <a href="#" class="img-actu">
-                                    <img src="image/diapo3.jpg" alt="Témoignage du mois">
-                                </a>
-                                <span class="titre-temoignage-front">Carte des IUT</span>
+                                <iframe src="https://www.google.com/maps/d/embed?mid=1yO3_K4oLfqVhxlTOyqeVy62OjFG-pJOg" width="100%" height="450px"></iframe>
                             </div>
-                            
-                        </div>
-                        <div class="contenu-temoignage">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Aliquam nec dolor lorem. Pellentesque accumsan convallis ante et volutpat. 
-                                Praesent eu urna sapien. In efficitur feugiat sagittis. <br>
-                                Donec lorem nisl, euismod et mattis ac, convallis ut nunc. 
-                                Duis dignissim dictum mauris. Nulla facilisi. 
-                                In ultrices blandit facilisis.</p>
                         </div>
                     </div>
                 </div>
@@ -100,20 +88,81 @@
                                 Duis dignissim dictum mauris. Nulla facilisi. 
                                 In ultrices blandit facilisis.</p>
                         </div>
+                        <div class="show-more">Voir plus de témoignages</div>
+                    </div>
+                </div>
+                <div class="bloc-droite col-xs-12 col-sm-6 col-md-8">
+                    <div class="offres-demploi">
+                        <div class="title">
+                            <div class="bloc_img">
+                                <span class="titre-offre-front">Offres d'emploi</span>
+                            </div>
+                            
+                        </div>
+                        <ul class="liste-offres-demploi">
+                            <li>
+                                <h6>Titre offre</h6>
+                                <p>contenu Offre n°1<br>
+                                Donec lorem nisl, euismod et mattis ac, convallis ut nunc. 
+                                Duis dignissim dictum mauris. Nulla facilisi. 
+                                In ultrices blandit facilisis</p>
+                            </li>
+                            <hr>
+                            <li>
+                                <h6>Titre offre</h6>
+                                <p>contenu Offre n°2<br>
+                                Donec lorem nisl, euismod et mattis ac, convallis ut nunc. 
+                                Duis dignissim dictum mauris. Nulla facilisi. 
+                                In ultrices blandit facilisis</p>
+                            </li>
+                            <hr>
+                            <li>
+                                <h6>Titre offre</h6>
+                                <p>contenu Offre n°3<br>
+                                Donec lorem nisl, euismod et mattis ac, convallis ut nunc. 
+                                Duis dignissim dictum mauris. Nulla facilisi. 
+                                In ultrices blandit facilisis</p>
+                            </li>
+                            <hr>
+                            <li>
+                                <h6>Titre offre</h6>
+                                <p>contenu Offre n°4<br>
+                                Donec lorem nisl, euismod et mattis ac, convallis ut nunc. 
+                                Duis dignissim dictum mauris. Nulla facilisi. 
+                                In ultrices blandit facilisis</p>
+                            </li>
+                            <hr>
+                            <li>
+                                <h6>Titre offre</h6>
+                                <p>contenu Offre n°5<br>
+                                Donec lorem nisl, euismod et mattis ac, convallis ut nunc. 
+                                Duis dignissim dictum mauris. Nulla facilisi. 
+                                In ultrices blandit facilisis</p>
+                            </li>
+                            <hr>
+                            <li>
+                                <h6>Titre offre</h6>
+                                <p>contenu Offre n°6<br>
+                                Donec lorem nisl, euismod et mattis ac, convallis ut nunc. 
+                                Duis dignissim dictum mauris. Nulla facilisi. 
+                                In ultrices blandit facilisis</p>
+                            </li>
+                        <ul>
+                        <div class="show-more">Voir plus d'offres</div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="temoignage-du-mois">
+                    <div class="article-du-mois">
                         <div class="title">
                             <div class="bloc_img">
                                 <a href="#" class="img-actu">
                                     <img src="image/diapo3.jpg" alt="Témoignage du mois">
                                 </a>
-                                <span class="titre-temoignage-front">Article du mois</span>
+                                <span class="titre-article-front">Article du mois</span>
                             </div>
                             
                         </div>
-                        <div class="contenu-temoignage">
+                        <div class="contenu-article">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                 Aliquam nec dolor lorem. Pellentesque accumsan convallis ante et volutpat. 
                                 Praesent eu urna sapien. In efficitur feugiat sagittis. <br>
@@ -121,6 +170,7 @@
                                 Duis dignissim dictum mauris. Nulla facilisi. 
                                 In ultrices blandit facilisis.</p>
                         </div>
+                        <div class="show-more">Voir plus d'articles</div>
                     </div>
                 </div>
             </div>

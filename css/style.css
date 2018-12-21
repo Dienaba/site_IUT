@@ -511,12 +511,19 @@ form.barre-de-recherche input.bouton-rechercher:hover {
 
 /****** Temoignage front page d'accueil *************/
 
-div.temoignage-du-mois {
+div.temoignage-du-mois,
+div.article-du-mois,
+div.offres-demploi {
     margin-top:25px;
     border: 1px solid #bbcc27;
     border-radius:5px;
 }
-div.temoignage-du-mois span.titre-temoignage-front {
+div.carte-des-iut {
+    margin-top:25px;
+}
+div.temoignage-du-mois span.titre-temoignage-front,
+div.article-du-mois span.titre-article-front,
+div.offres-demploi span.titre-offre-front {
     position:absolute;
     top:0px;
     left:15px;
@@ -533,16 +540,43 @@ div.temoignage-du-mois span.titre-temoignage-front {
 div.temoignage-du-mois span.titre-temoignage-front {
     background: #bbcc27 url('../image/picto/picto_temoignage.svg') 0 0 no-repeat;
 }
-div.contenu-temoignage {
+div.article-du-mois span.titre-article-front {
+    background: #bbcc27 url('../image/picto/picto_article.svg') 0 0 no-repeat;
+}
+div.offres-demploi span.titre-offre-front {
+    background: #bbcc27 url('../image/picto/picto_offre.svg') 0 0 no-repeat;
+}
+div.contenu-temoignage,
+div.contenu-article {
     padding:10px;
 }
 div.bloc-droite {
     float:right;
     margin-bottom: 20px;
+    padding-right:0px !important;
 }
-div.bloc-droite span.titre-temoignage-front {
+div.bloc-droite span.titre-temoignage-front,
+div.bloc-droite span.titre-offre-front {
     top:25px;
 }
 div.bloc-sous-slider {
     overflow:hidden;
+}
+ul.liste-offres-demploi {
+    margin-top:71px;
+}
+div.bloc-connexion a {
+    text-decoration: none !important;
+    color:#000 !important;
+    display:flex;
+    justify-content: space-evenly;
+    font-size:14px !important;
+}
+div.show-more {
+    padding: 10px;
+    text-align:center;
+    background-color: #3c2e60;
+    border-radius:5px;
+    color:white !important;
+    margin:20px;
 }
