@@ -61,11 +61,11 @@
             </div>
             <div class="bloc-sous-slider">
                 <div class="bloc-droite col-xs-12 col-sm-6 col-md-8">
-                    <div class="temoignage-du-mois">
+                    <div class="carte-des-iut">
                         <div class="title">
                             <div class="bloc_img">
                                 <iframe src="https://www.google.com/maps/d/embed?mid=1yO3_K4oLfqVhxlTOyqeVy62OjFG-pJOg" width="794.656" height="494"></iframe>
-                                <span class="titre-temoignage-front">Carte des IUT</span>
+                                <span class="titre-carte-iut">Carte des IUT</span>
                             </div>
                         </div>
                     </div>
@@ -92,17 +92,17 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="temoignage-du-mois">
+                    <div class="article-du-mois">
                         <div class="title">
                             <div class="bloc_img">
                                 <a href="#" class="img-actu">
                                     <img src="image/diapo3.jpg" alt="Témoignage du mois">
                                 </a>
-                                <span class="titre-temoignage-front">Article du mois</span>
+                                <span class="titre-article-front">Article du mois</span>
                             </div>
                             
                         </div>
-                        <div class="contenu-temoignage">
+                        <div class="contenu-article">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                 Aliquam nec dolor lorem. Pellentesque accumsan convallis ante et volutpat. 
                                 Praesent eu urna sapien. In efficitur feugiat sagittis. <br>
