@@ -33,7 +33,7 @@
                 <div class="bloc-connexion col-xs-12 col-sm-6 col-md-3">
                 <?php if (isset($_COOKIE['login'])) { ?>
                     <p class="message-de-bienvenue">Bienvenue <?php echo $_COOKIE['login'] ?> !</p>
-                    <a  href="accueilAdmin.php" class="btn btn-lg btn-block green">Accéder à l'interface admin</a>
+                    <a  href="accueilAdmin.php" class="interface-admin btn btn-lg btn-block green">Accéder à l'interface admin</a>
                     <!-- <ul class="menu-bloc-connexion">
                         <!-- <li class="modif-info">Modifier vos informations</li>
                         <li class="temoignage">Déposer un témoignage</li>

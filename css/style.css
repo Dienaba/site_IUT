@@ -562,3 +562,10 @@ div.bloc-sous-slider {
 ul.liste-offres-demploi {
     margin-top:71px;
 }
+div.bloc-connexion a {
+    text-decoration: none !important;
+    color:#000 !important;
+    display:flex;
+    justify-content: space-evenly;
+    font-size:14px !important;
+}
