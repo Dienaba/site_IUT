@@ -545,7 +545,8 @@ div.bloc-droite {
     float:right;
     margin-bottom: 20px;
 }
-div.bloc-droite span.titre-temoignage-front {
+div.bloc-droite span.titre-temoignage-front,
+div.bloc-droite span.titre-carte-iut {
     top:25px;
 }
 div.bloc-sous-slider {
