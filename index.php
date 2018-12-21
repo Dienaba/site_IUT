@@ -64,7 +64,7 @@
                     <div class="carte-des-iut">
                         <div class="title">
                             <div class="bloc_img">
-                                <iframe src="https://www.google.com/maps/d/embed?mid=1yO3_K4oLfqVhxlTOyqeVy62OjFG-pJOg" width="794.656" height="494"></iframe>
+                                <iframe src="https://www.google.com/maps/d/embed?mid=1yO3_K4oLfqVhxlTOyqeVy62OjFG-pJOg" width="100%" height="450px"></iframe>
                             </div>
                         </div>
                     </div>
