@@ -98,12 +98,17 @@
                             </div>
                             
                         </div>
-                        <ul>
+                        <ul class="liste-offres-demploi">
                             <li>Offre n°1</li>
+                            <hr>
                             <li>Offre n°2</li>
+                            <hr>
                             <li>Offre n°3</li>
+                            <hr>
                             <li>Offre n°4</li>
+                            <hr>
                             <li>Offre n°5</li>
+                            <hr>
                             <li>Offre n°6</li>
                         <ul>
                     </div>
