@@ -537,6 +537,12 @@ div.carte-des-iut span.titre-carte-iut {
 div.temoignage-du-mois span.titre-temoignage-front {
     background: #bbcc27 url('../image/picto/picto_temoignage.svg') 0 0 no-repeat;
 }
+div.article-du-mois span.titre-article-front {
+    background: #bbcc27 url('../image/picto/picto_article.svg') 0 0 no-repeat;
+}
+div.carte-des-iut span.titre-carte-iut {
+    background: #bbcc27 url('../image/picto/picto_maps.svg') 0 0 no-repeat;
+}
 div.contenu-temoignage,
 div.contenu-article {
     padding:10px;
