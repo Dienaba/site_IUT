@@ -32,16 +32,10 @@ a {
     color: #3c2e60 !important;
     position: relative;
 }
-a:hover {
-    color: #bbcc27 !important;
-    -webkit-transform: all ease-in-out 0.3s;
-}
 ul.nav-bar li a {
     text-transform: uppercase;
     display:block;
-    color: #3c2e60 !important;
 }
-
 .boxed:not(.active) {
     background: #fff;
 }
