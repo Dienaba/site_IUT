@@ -6,7 +6,7 @@
     </div>
     <div class='lesPartenaires'>
 
-        <div class='containerPartenaire'>
+        <div class='containerPartenaire' style="width:30%">
             <a href="https://atos.net/fr/" target="_blank">
                 <img class='logoPartenaire' src="image/Atos.png" alt="">
                 <div class="hover">
@@ -16,7 +16,7 @@
                 </div>
             </a>
         </div>   
-        <div class='containerPartenaire'>
+        <div class='containerPartenaire' style="width:30%">
             <a href="https://www.capgemini.com/fr-fr/" target="_blank">
                 <img class='logoPartenaire' src="image/Capgemini.png" alt="">
                 <div class="hover">
@@ -26,7 +26,7 @@
                 </div>
             </a>
         </div>  
-        <div class='containerPartenaire'>
+        <div class='containerPartenaire' style="width:20%">
             <a href="https://www.cigref.fr/" target="_blank">
                 <img class='logoPartenaire' src="image/Cigref.png" alt="">
                 <div class="hover">
@@ -36,7 +36,7 @@
                 </div>
             </a>
         </div>
-        <div class='containerPartenaire'>
+        <div class='containerPartenaire' style="width:30%">
             <a href="https://www.ibm.com/fr-fr/" target="_blank">
                 <img class='logoPartenaire' src="image/IBM.png" alt="">
                 <div class="hover">
@@ -46,7 +46,7 @@
                 </div>
             </a>
         </div> 
-        <div class='containerPartenaire'>
+        <div class='containerPartenaire' style="width:30%">
             <a href="https://www.microsoft.com/fr-fr" target="_blank">
                 <img class='logoPartenaire' src="image/microsoft.png" alt="">
                 <div class="hover">
@@ -56,7 +56,7 @@
                 </div>
             </a>
         </div> 
-        <div class='containerPartenaire'>
+        <div class='containerPartenaire' style="width:15%">
             <a href="http://www.unb.br/" target="_blank">
                 <img class='logoPartenaire' src="image/unb.png" alt="">
                 <div class="hover">
